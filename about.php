@@ -821,7 +821,7 @@ include 'includes/header.php';
                 <h2 style="font-size: 32px; font-weight: 600; color: #ffffff; margin-top: 0; margin-bottom: 8px;">Our
                     Testing Process</h2>
                 <p style="font-size: 16px; line-height: 1.7; color: rgba(255, 255, 255, 0.7); margin-top: 0;">From
-                    inquiry to report — a transparent, structured workflow
+                    enquiry to report — a transparent, structured workflow
                     designed<br>around your needs.</p>
             </div>
 
@@ -829,7 +829,7 @@ include 'includes/header.php';
                 <!-- Row 1 -->
                 <div class="process-step reveal-child">
                     <div class="step-badge">1</div>
-                    <h4>Fill the Inquiry Form</h4>
+                    <h4>Fill the Enquiry Form</h4>
                     <p>Submit your testing requirements through our contact form — specifying materials, standards,
                         timelines, and any special conditions.</p>
                 </div>

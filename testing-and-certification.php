@@ -34,8 +34,8 @@ include 'includes/header.php';
                         onclick="event.preventDefault(); const target = document.getElementById('categories'); const offset = 80; const bodyRect = document.body.getBoundingClientRect().top; const elementRect = target.getBoundingClientRect().top; const elementPosition = elementRect - bodyRect; const offsetPosition = elementPosition - offset; window.scrollTo({ top: offsetPosition, behavior: 'smooth' });">
                         Explore Testing
                     </a>
-                    <a href="mailto:info@akc.com" class="btn-qc-outline">
-                        Request a Test
+                    <a href="contact-us.php#enquiry" class="btn-qc-outline">
+                        Send us enquiry
                     </a>
                 </div>
 
@@ -72,8 +72,7 @@ include 'includes/header.php';
                     <h5>CONTACT US</h5>
                 </div>
 
-                <h3 class="widget-phone"><a href="tel:+918860407220" style="color: inherit; text-decoration: none;">+91
-                        88604 07220</a></h3>
+                <h3 class="widget-phone"><a href="tel:+911234567890" style="color: inherit; text-decoration: none;">+91 12345 67890</a></h3>
 
                 <div class="widget-email-row">
                     <i class="fa-regular fa-envelope"></i>
@@ -81,8 +80,8 @@ include 'includes/header.php';
                 </div>
 
                 <button class="btn-widget-submit"
-                    onclick="window.location.href='mailto:info@akc-ptarc.com?subject=Inquiry from QC Analysis Page'">
-                    Send us a request
+                    onclick="window.location.href='contact-us.php#enquiry'">
+                    Send us enquiry
                 </button>
             </div>
 
@@ -217,10 +216,10 @@ include 'includes/header.php';
                     all testing disciplines.</p>
             </div>
             <div class="cta-right">
-                <a href="mailto:info@akc.com" class="btn-cta-light">
-                    Request a Test
+                <a href="contact-us.php#enquiry" class="btn-cta-light">
+                    Send us enquiry
                 </a>
-                <a href="#" class="btn-cta-outline">
+                <a href="contact-us.php" class="btn-cta-outline">
                     Contact Our Experts
                 </a>
             </div>

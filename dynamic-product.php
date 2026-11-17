@@ -385,15 +385,14 @@ include 'includes/header.php';
             <div class="pr-section-label">
                 <span class="pr-label-line"></span> Contact Us
             </div>
-            <h2 class="pr-contact-phone"><a href="tel:+918860407220" style="color: inherit; text-decoration: none;">+91
-                    88604 07220</a></h2>
+            <h2 class="pr-contact-phone"><a href="tel:+911234567890" style="color: inherit; text-decoration: none;">+91 12345 67890</a></h2>
             <hr class="pr-card-divider">
             <div class="pr-contact-links">
                 <a href="mailto:info@akc-ptarc.com" class="pr-contact-email" style="text-decoration: none;">
                     <i class="bi bi-envelope"></i> Email Us: info@akc-ptarc.com
                 </a>
             </div>
-            <a href="mailto:info@akc-ptarc.com?subject=Inquiry from <?php echo htmlspecialchars(addslashes($prodName ?? 'Product Page')); ?>"
+            <a href="mailto:info@akc-ptarc.com?subject=Enquiry from <?php echo htmlspecialchars(addslashes($prodName ?? 'Product Page')); ?>"
                 class="pr-btn pr-btn-primary pr-btn-full">Send us a request</a>
         </div>
     </div>

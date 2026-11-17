@@ -298,10 +298,7 @@
                 <!-- Action Button -->
                 <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
                     <a href="login.php" class="member-login" style="padding: 9px 18px; font-size: 13.5px;">
-                        <i class="fa-solid fa-user"></i> Customer Login
-                    </a>
-                    <a href="admin_login.php" class="member-login" style="padding: 9px 16px; font-size: 13.5px; background: #0f172a; color: white; border-color: #0f172a;" title="Staff / Admin Portal">
-                        <i class="fa-solid fa-shield-halved"></i> Admin
+                        <i class="fa-solid fa-lock"></i> Member Login
                     </a>
                     <button class="mobile-menu-toggle" id="menuToggleBtn" aria-label="Toggle Menu">
                         <i class="fa-solid fa-bars"></i>
@@ -375,10 +372,7 @@
             </ul>
             <div class="drawer-actions" style="display: flex; flex-direction: column; gap: 10px;">
                 <a href="login.php" class="member-login" style="justify-content: center;">
-                    <i class="fa-solid fa-user"></i> Customer Login
-                </a>
-                <a href="admin_login.php" class="member-login" style="justify-content: center; background: #0f172a; color: white; border-color: #0f172a;">
-                    <i class="fa-solid fa-shield-halved"></i> Admin Portal
+                    <i class="fa-solid fa-lock"></i> Member Login
                 </a>
             </div>
         </div>

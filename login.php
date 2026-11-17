@@ -301,9 +301,9 @@ include 'includes/header.php';
         <div class="customer-login-card">
             <div class="customer-login-header">
                 <div class="customer-portal-badge">
-                    <i class="fa-solid fa-user-check"></i> Customer Portal
+                    <i class="fa-solid fa-lock"></i> Member Portal
                 </div>
-                <h2>Customer Login</h2>
+                <h2>Member Login</h2>
                 <p>Access your test booking history, certificates &amp; reports</p>
             </div>
 
@@ -337,11 +337,7 @@ include 'includes/header.php';
             </form>
 
             <div class="customer-login-footer">
-                <p style="margin-bottom: 8px;">New client? <a href="book-test.php">Book a Test to get started</a></p>
-                <p style="margin-top: 12px; font-size: 12.5px; color: #94a3b8;">
-                    Staff or Administrator? <a href="admin_login.php" style="color: #64748b; font-weight: 600;"><i
-                            class="fa-solid fa-lock"></i> Admin Portal Login &rarr;</a>
-                </p>
+                <p style="margin-bottom: 0;">New client? <a href="book-test.php">Book a Test to get started</a></p>
             </div>
         </div>
     </div>

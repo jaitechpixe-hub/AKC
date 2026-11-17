@@ -96,8 +96,7 @@ $products = $productsStmt->fetchAll(PDO::FETCH_ASSOC);
                     <h5>CONTACT US</h5>
                 </div>
 
-                <h3 class="widget-phone"><a href="tel:+918860407220" style="color: inherit; text-decoration: none;">+91
-                        88604 07220</a></h3>
+                <h3 class="widget-phone"><a href="tel:+911234567890" style="color: inherit; text-decoration: none;">+91 12345 67890</a></h3>
 
                 <div class="widget-email-row">
                     <i class="fa-regular fa-envelope"></i>
@@ -105,7 +104,7 @@ $products = $productsStmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <button class="btn-widget-submit"
-                    onclick="window.location.href='mailto:info@akc-ptarc.com?subject=Inquiry from Technical Services Page'">
+                    onclick="window.location.href='mailto:info@akc-ptarc.com?subject=Enquiry from Technical Services Page'">
                     Send us a request
                 </button>
             </div>

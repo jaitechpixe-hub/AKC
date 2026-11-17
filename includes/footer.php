@@ -69,8 +69,7 @@
                     <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
                     <div class="contact-text">
                         <h5>Phone</h5>
-                        <p><a href="tel:+918860407220" style="color: inherit; text-decoration: none;">+91 88604
-                                07220</a></p>
+                        <p><a href="tel:+911234567890" style="color: inherit; text-decoration: none;">+91 12345 67890</a></p>
                         <p>Mon–Sat, 9:00 AM – 6:30 PM</p>
                     </div>
                 </div>
