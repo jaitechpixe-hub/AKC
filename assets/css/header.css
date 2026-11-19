@@ -62,9 +62,42 @@ header {
     white-space: nowrap;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
     .nav-menu>ul.main-menu {
-        gap: 15px;
+        gap: 16px;
+    }
+
+    .nav-menu>ul.main-menu>li>a {
+        font-size: 13px;
+    }
+
+    .member-login {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-menu {
+        display: none !important;
+    }
+
+    .mobile-menu-toggle {
+        display: flex !important;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #1c2b3a;
+        cursor: pointer;
+        padding: 5px;
+        margin-left: 15px;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+    }
+
+    .mobile-menu-toggle:hover {
+        color: var(--primary-blue);
     }
 }
 

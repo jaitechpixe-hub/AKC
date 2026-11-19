@@ -257,8 +257,8 @@ body {
 .card-icon-wrapper {
     width: 50px;
     height: 50px;
-    background: #F0F9FF;
-    color: var(--primary-blue);
+    background: rgba(207, 52, 56, 0.08);
+    color: #CF3438;
     border-radius: 12px;
     display: flex;
     align-items: center;

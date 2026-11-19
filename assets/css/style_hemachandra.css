@@ -1111,6 +1111,7 @@ img {
 }
 .pr-test-card {
     border: 1px solid #e2e8f0;
+    border-top: 3px solid #CF3438;
     border-radius: 8px;
     padding: 28px;
     display: flex;
@@ -1118,8 +1119,8 @@ img {
     transition: var(--transition);
 }
 .pr-test-card:hover { 
-    box-shadow: inset 0 4px 0 var(--primary-blue), 0 15px 35px rgba(0,0,0,0.08); 
-    border-color: #cbd5e1; 
+    box-shadow: 0 15px 35px rgba(207, 52, 56, 0.12); 
+    border-color: #CF3438; 
 }
 .pr-test-header { margin-bottom: 12px; }
 .pr-test-num {
@@ -2022,7 +2023,7 @@ img {
 .ss-services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
 .ss-service-card { background: #fff; border-radius: 12px; padding: 30px; text-align: left; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s ease; }
 .ss-service-card:hover { transform: translateY(-5px); }
-.ss-service-icon { width: 50px; height: 50px; background: #e0f2fe; color: #1796d2; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 20px; }
+.ss-service-icon { width: 50px; height: 50px; background: rgba(207, 52, 56, 0.08); color: #CF3438; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 20px; }
 .ss-service-card h3 { font-size: 20px; color: #1e293b; margin-bottom: 15px; font-weight: 700; }
 .ss-service-card p { color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
 .ss-service-link { color: #1796d2; font-weight: 600; text-decoration: none; font-size: 14px; display: inline-flex; align-items: center; }
@@ -2051,7 +2052,7 @@ img {
 .ss-services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
 .ss-service-card { background: #fff; border-radius: 12px; padding: 30px; text-align: left; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s ease; }
 .ss-service-card:hover { transform: translateY(-5px); }
-.ss-service-icon { width: 50px; height: 50px; background: #e0f2fe; color: #1796d2; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 20px; }
+.ss-service-icon { width: 50px; height: 50px; background: rgba(207, 52, 56, 0.08); color: #CF3438; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 20px; }
 .ss-service-card h3 { font-size: 20px; color: #1e293b; margin-bottom: 15px; font-weight: 700; }
 .ss-service-card p { color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 20px; }
 .ss-service-link { color: #1796d2; font-weight: 600; text-decoration: none; font-size: 14px; display: inline-flex; align-items: center; }

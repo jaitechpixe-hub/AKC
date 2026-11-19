@@ -293,8 +293,8 @@ body {
 .card-icon-wrapper {
     width: 60px;
     height: 60px;
-    background: #F0F9FF;
-    color: var(--primary-blue);
+    background: rgba(207, 52, 56, 0.08);
+    color: #CF3438;
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -429,9 +429,9 @@ body {
 .sc-icon {
     width: 48px;
     height: 48px;
-    background: #F0F9FF;
-    color: #0284c7;
-    border: 1px solid #bae6fd;
+    background: rgba(207, 52, 56, 0.08);
+    color: #CF3438;
+    border: 1px solid rgba(207, 52, 56, 0.2);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -442,7 +442,7 @@ body {
 }
 
 .service-card:hover .sc-icon {
-    background: #0284c7;
+    background: #CF3438;
     color: #ffffff;
 }
 
