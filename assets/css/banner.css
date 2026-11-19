@@ -110,22 +110,20 @@
 .btn-primary {
     display: inline-block;
     padding: 14px 35px;
-    background: #00bcd4;
-    border: 1.5px solid #00bcd4;
+    background: #2B7EC0;
+    border: 1.5px solid #2B7EC0;
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
-    
 }
 
 .btn-primary:hover {
-    background: white;
-    border-color: white;
+    background: #2369A1;
+    border-color: #2369A1;
     color: #ffffff;
-    
 }
 
 .btn-secondary {
