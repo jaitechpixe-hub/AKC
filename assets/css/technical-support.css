@@ -951,6 +951,15 @@ body {
     padding: 60px 5%;
 }
 
+.ts-final-cta .ts-subtitle {
+    color: #ffffff !important;
+}
+
+.ts-final-cta .ts-subtitle .line,
+.ts-final-cta .ts-subtitle .dot {
+    background-color: #ffffff !important;
+}
+
 .ts-final-cta-container {
     max-width: 1200px;
     margin: 0 auto;

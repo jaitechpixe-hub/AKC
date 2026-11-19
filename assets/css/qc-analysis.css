@@ -506,11 +506,12 @@ body {
 }
 
 .cta-left .qc-subtitle {
-    color: #CF3438;
+    color: #ffffff !important;
 }
 
-.cta-left .qc-subtitle .line {
-    background-color: #CF3438;
+.cta-left .qc-subtitle .line,
+.cta-left .qc-subtitle .dot {
+    background-color: #ffffff !important;
 }
 
 .cta-left h2 {
