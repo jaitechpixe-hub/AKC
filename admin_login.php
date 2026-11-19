@@ -221,7 +221,7 @@ include 'includes/header.php';
 
     .admin-form-group input:focus {
         outline: none;
-        border-color: #0d47a1;
+        border-color: #2B7EC0;
         background-color: #ffffff;
         box-shadow: 0 0 0 4px rgba(13, 71, 161, 0.12);
     }
@@ -248,13 +248,13 @@ include 'includes/header.php';
     }
 
     .password-toggle:hover {
-        color: #0d47a1;
+        color: #2B7EC0;
     }
 
     .admin-login-btn {
         width: 100%;
         padding: 14px;
-        background: #0d47a1;
+        background: #2B7EC0;
         color: white;
         border: none;
         border-radius: 10px;
@@ -298,7 +298,7 @@ include 'includes/header.php';
     }
 
     .admin-login-footer a {
-        color: #0d47a1;
+        color: #2B7EC0;
         text-decoration: none;
         font-weight: 600;
     }

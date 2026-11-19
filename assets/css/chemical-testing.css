@@ -1,8 +1,8 @@
 /* chemical-testing.css */
 :root {
-    --primary-blue: #0056b3;
+    --primary-blue: #2B7EC0;
     --deep-blue: #1e1e1e;
-    --accent-red: #E11D48;
+    --accent-red: #CF3438;
     --text-main: #1e1e1e;
     --text-muted: #555555;
     --bg-light: #F8FAFC;
@@ -49,14 +49,14 @@ body {
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #38BDF8;
+    color: #CF3438;
     margin-bottom: 20px;
 }
 
 .chemical-subtitle .dot {
     width: 8px;
     height: 8px;
-    background-color: var(--accent-red);
+    background-color: #CF3438;
     border-radius: 50%;
 }
 
@@ -216,7 +216,7 @@ body {
 .categories-section-header h2 {
     font-size: 32px;
     font-weight: 600;
-    color: #081D33;
+    color: #373435;
     margin-top: 0;
     margin-bottom: 8px;
 }

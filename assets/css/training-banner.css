@@ -52,7 +52,7 @@
 .training-label .label-line {
     width: 30px;
     height: 2px;
-    background: #ff3b3b;
+    background: #CF3438;
 }
 
 .training-content h2 {
@@ -65,7 +65,7 @@
 }
 
 .training-content h2 span {
-    color: #1e88e5;
+    color: #2B7EC0;
 }
 
 .training-content p {
@@ -78,7 +78,7 @@
 .btn-view-courses {
     display: inline-block;
     padding: 15px 35px;
-    background: #1e88e5;
+    background: #CF3438;
     color: white;
     font-weight: 700;
     font-size: 16px;
@@ -87,7 +87,7 @@
 }
 
 .btn-view-courses:hover {
-    background: #1565c0;
+    background: #b52a2e;
 }
 
 /* Responsive */

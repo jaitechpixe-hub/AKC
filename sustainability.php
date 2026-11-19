@@ -8,7 +8,7 @@ include 'includes/header.php';
 <!-- Custom Stylesheet Link for this Page -->
 <style>
     .sus-hero-section {
-        background: linear-gradient(120deg, #0d47a1 0%, #1976d2 55%, #2196f3 100%);
+        background: linear-gradient(120deg, #2B7EC0 0%, #1976d2 55%, #2196f3 100%);
         padding: 100px 0 80px;
         color: #fff;
         position: relative;
@@ -54,13 +54,13 @@ include 'includes/header.php';
     <section class="sus-content reveal">
         <div class="container">
             <i class="fa-solid fa-leaf" style="font-size: 4rem; color: #43a047; margin-bottom: 30px;"></i>
-            <h2 style="font-size: 32px; color: #081D33; font-weight: 600; margin-top: 0; margin-bottom: 8px;">Our Sustainability Goals</h2>
+            <h2 style="font-size: 32px; color: #373435; font-weight: 600; margin-top: 0; margin-bottom: 8px;">Our Sustainability Goals</h2>
             <p style="color: #475569; font-size: 16px; line-height: 1.7; margin-top: 0; margin-bottom: 40px;">
                 At AKC, we believe that environmental responsibility is integral to our operations. We are actively working towards minimizing our carbon footprint and integrating sustainable practices across all our laboratories and facilities. 
                 <br><br>
                 This page is currently being updated with our latest sustainability reports and initiatives. Please check back soon!
             </p>
-            <a href="contact-us.php" style="display: inline-block; background: #0d47a1; color: white; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: background 0.3s ease;">Contact Us to Learn More</a>
+            <a href="contact-us.php" style="display: inline-block; background: #2B7EC0; color: white; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: background 0.3s ease;">Contact Us to Learn More</a>
         </div>
     </section>
 </main>

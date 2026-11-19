@@ -224,7 +224,7 @@
     .tc-courses-header h2 {
         font-size: 32px;
         font-weight: 600;
-        color: #081D33;
+        color: #373435;
         margin-top: 0;
         margin-bottom: 8px;
     }

@@ -13,7 +13,7 @@ include 'includes/header.php';
     <!-- Hero Banner Section -->
     <section class="hero-banner">
         <!-- Right side video with overlay -->
-        <div class="banner-image-area" style="background: #0d47a1;">
+        <div class="banner-image-area" style="background: #2B7EC0;">
             <video autoplay loop muted playsinline webkit-playsinline="true" preload="auto" disablepictureinpicture
                 disableremoteplayback
                 style="width: 100%; height: 100%; object-fit: cover; display: block;">
@@ -143,7 +143,7 @@ include 'includes/header.php';
             font-weight: 400 !important;
             letter-spacing: 1.5px !important;
             text-transform: uppercase !important;
-            color: rgba(0, 0, 0, 0.6) !important;
+            color: #CF3438 !important; font-weight: 700 !important;
             margin-top: 0 !important;
             margin-bottom: 8px !important;
             line-height: 1.2 !important;
@@ -154,25 +154,25 @@ include 'includes/header.php';
             display: inline-block !important;
             width: 12px !important;
             height: 0 !important;
-            border-top: 2px dashed #ff3b3b !important;
+            border-top: 2px solid #CF3438 !important;
             flex-shrink: 0 !important;
         }
 
         .universal-section-label.dark,
         .universal-section-label.on-dark {
-            color: rgba(255, 255, 255, 0.6) !important;
+            color: #ff6b6e !important; font-weight: 700 !important;
         }
 
         .universal-section-label.dark::before,
         .universal-section-label.on-dark::before {
-            border-top: 2px dashed #ff3b3b !important;
+            border-top: 2px solid #CF3438 !important;
         }
 
         /* Universal Section Heading Style */
         .universal-section-heading {
             font-size: 32px !important;
             font-weight: 600 !important;
-            color: #081D33;
+            color: #373435;
             line-height: 1.25 !important;
             letter-spacing: normal !important;
             text-transform: none !important;
@@ -320,7 +320,7 @@ include 'includes/header.php';
                     PTARC aims to evolve from an advanced R&D and testing laboratory into an internationally recognized
                     Institute and global centre of excellence in polymer, packaging, and material science.</p>
                 <a href="about.php" class="btn-primary"
-                    style="background: #0d47a1; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 500; font-size: 16px;">Learn
+                    style="background: #CF3438; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; box-shadow: 0 4px 14px rgba(207, 52, 56, 0.35); font-weight: 500; font-size: 16px;">Learn
                     More About Us</a>
             </div>
         </div>
@@ -339,7 +339,7 @@ include 'includes/header.php';
             style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; text-align: center;">
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
                     style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
@@ -356,7 +356,7 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
                     style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
@@ -373,7 +373,7 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
                     style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
@@ -390,7 +390,7 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
                     style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
@@ -645,7 +645,7 @@ include 'includes/header.php';
 
             // Assign uniform theme colors
             foreach ($managementStandards as &$std) {
-                $std['color'] = '#0d47a1'; // Primary dark blue
+                $std['color'] = '#2B7EC0'; // Primary dark blue
                 $std['bg'] = '#f1f5f9'; // Light slate background
             }
             unset($std);
@@ -685,7 +685,7 @@ include 'includes/header.php';
                     <!-- Left Column: Management System Standards -->
                     <div class="akc-mgt-card reveal-left"
                         style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                        <div style="background: #0d47a1; color: white; padding: 12px 20px; text-align: center;">
+                        <div style="background: #2B7EC0; color: white; padding: 12px 20px; text-align: center;">
                             <h3 style="margin: 0; font-size: 16px; font-weight: 600; color: white;">Our Management
                                 System Standards</h3>
                         </div>
@@ -818,8 +818,8 @@ include 'includes/header.php';
                     process challenges.
                 </p>
                 <a href="technical-services.php"
-                    style="display: inline-block; padding: 14px 32px; background: #0A58CA; color: white; font-weight: 500; font-size: 16px; border-radius: 6px; text-decoration: none;"
-                    onmouseover="this.style.background='#0d6efd'" onmouseout="this.style.background='#0A58CA'">
+                    style="display: inline-block; padding: 14px 32px; background: #2B7EC0; color: white; font-weight: 500; font-size: 16px; border-radius: 6px; text-decoration: none;"
+                    onmouseover="this.style.background='#0d6efd'" onmouseout="this.style.background='#2B7EC0'">
                     View Services
                 </a>
             </div>
@@ -861,7 +861,7 @@ include 'includes/header.php';
                     partners. From foundational polymer science to advanced quality assurance, our programmes prepare
                     engineers, technicians, and researchers to perform at the highest level.</p>
                 <a href="training-courses.php" class="btn-view-courses"
-                    style="display: inline-block; padding: 14px 35px; background: #0d47a1; color: white; font-weight: 500; font-size: 16px; border-radius: 6px; text-decoration: none;">View
+                    style="display: inline-block; padding: 14px 35px; background: #2B7EC0; color: white; font-weight: 500; font-size: 16px; border-radius: 6px; text-decoration: none;">View
                     Training Courses</a>
             </div>
         </div>
@@ -1187,15 +1187,15 @@ include 'includes/header.php';
     <!-- <section class="faq-section" style="padding: 40px 20px; background: #f9f9f9;">
         <div style="max-width: 800px; margin: 0 auto;">
             <div style="text-align: center; margin-bottom: 50px;">
-                <h2 style="font-size: 2rem; font-weight: 800; color: #081D33; line-height: 1.15; margin-bottom: 15px;">
+                <h2 style="font-size: 2rem; font-weight: 800; color: #373435; line-height: 1.15; margin-bottom: 15px;">
                     Have questions?<br>
-                    <span style="color: #0A58CA; font-style: italic; font-weight: 800;">Our experts are ready to
+                    <span style="color: #2B7EC0; font-style: italic; font-weight: 800;">Our experts are ready to
                         help.</span>
                 </h2>
             </div>
 
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">What types of testing does AKC offer?
                 </h4>
                 <p style="color: #666; line-height: 1.5; font-size: 16px;">We offer accredited testing across chemical,
@@ -1203,14 +1203,14 @@ include 'includes/header.php';
                     packaging, textiles, rubber, leather, paper, medical devices, and more.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">Is AKC NABL-accredited?</h4>
                 <p style="color: #666; line-height: 1.5; font-size: 16px;">Yes. Our laboratories are NABL-accredited and
                     ISO 17025 compliant, meeting the highest national and international quality standards for testing
                     and calibration.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">How do I submit a sample for testing?
                 </h4>
                 <p style="color: #666; line-height: 1.5; font-size: 16px;">Fill out our online enquiry form, call our
@@ -1218,7 +1218,7 @@ include 'includes/header.php';
                     sample submission process.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">Do you offer training for industry
                     professionals?</h4>
                 <p style="color: #666; line-height: 1.5; font-size: 16px;">Absolutely. We run structured training

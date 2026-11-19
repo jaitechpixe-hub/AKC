@@ -326,7 +326,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 You can also reset your password immediately here:
                             </p>
                             <a href="<?php echo htmlspecialchars($reset_link_url); ?>" 
-                               style="display: inline-block; background: #0A58CA; color: #ffffff; padding: 11px 24px; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(10,88,202,0.25);" target="_blank">
+                               style="display: inline-block; background: #2B7EC0; color: #ffffff; padding: 11px 24px; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(10,88,202,0.25);" target="_blank">
                                 Open Reset Password Page &rarr;
                             </a>
                         </div>

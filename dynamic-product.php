@@ -1009,7 +1009,7 @@ include 'includes/header.php';
                 ?>
                 <button class="pr-tab-btn <?php echo $isTabActive ? 'active' : ''; ?>"
                     onclick="openDisciplineTab(event, 'tab-<?php echo $tabId; ?>')"
-                    style="padding: 10px 22px; border: 1px solid <?php echo $isTabActive ? '#0A58CA' : '#cbd5e1'; ?>; background: <?php echo $isTabActive ? '#0A58CA' : '#f8fafc'; ?>; color: <?php echo $isTabActive ? '#fff' : '#1e293b'; ?>; border-radius: 4px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: 'DM Sans', sans-serif; font-size: 14px;">
+                    style="padding: 10px 22px; border: 1px solid <?php echo $isTabActive ? '#2B7EC0' : '#cbd5e1'; ?>; background: <?php echo $isTabActive ? '#2B7EC0' : '#f8fafc'; ?>; color: <?php echo $isTabActive ? '#fff' : '#1e293b'; ?>; border-radius: 4px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: 'DM Sans', sans-serif; font-size: 14px;">
                     <?php echo htmlspecialchars($disciplineName); ?>
                 </button>
                 <?php
@@ -1027,7 +1027,7 @@ include 'includes/header.php';
                     style="display: <?php echo $isContentActive ? 'block' : 'none'; ?>; animation: fadeEffect 0.5s;">
                     <?php if (!empty($disciplinetests)): ?>
                         <h3
-                            style="margin-top: 10px; margin-bottom: 20px; color: #0A58CA; font-weight: 700; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; font-size: 1.5rem;">
+                            style="margin-top: 10px; margin-bottom: 20px; color: #2B7EC0; font-weight: 700; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; font-size: 1.5rem;">
                             <?php echo htmlspecialchars($disciplineName); ?> Tests
                         </h3>
 
@@ -1060,13 +1060,13 @@ include 'includes/header.php';
 
                     <div class="custom-test-cta"
                         style="background: #f8fafc; border: 1px dashed #cbd5e1; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 40px;">
-                        <h4 style="color: #081D33; margin-bottom: 10px; font-weight: 700;">Need a Custom Test?</h4>
+                        <h4 style="color: #373435; margin-bottom: 10px; font-weight: 700;">Need a Custom Test?</h4>
                         <p style="color: #64748B; margin-bottom: 15px;">Our scientists can design bespoke
                             <?php echo strtolower($disciplineName); ?> test programmes for specialised material compositions
                             and regulatory requirements.
                         </p>
                         <a href="mailto:info@akc-ptarc.com"
-                            style="color: #0A58CA; font-weight: 600; text-decoration: none;">Discuss Requirements &nbsp;<i
+                            style="color: #2B7EC0; font-weight: 600; text-decoration: none;">Discuss Requirements &nbsp;<i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -1565,7 +1565,7 @@ include 'includes/header.php';
     <div
         style="background:#fff; width:95%; max-width:1380px; height:94vh; max-height:920px; border-radius:14px; position:relative; overflow:hidden; box-shadow:0 15px 40px rgba(0,0,0,0.4);">
         <button onclick="closeBookTestPopup()"
-            style="position:absolute; top:20px; right:20px; background:#fff; border:1px solid #e2e8f0; width:40px; height:40px; border-radius:50%; font-size:1.2rem; cursor:pointer; color:#0A58CA; z-index:10; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); transition:all 0.3s;"><i
+            style="position:absolute; top:20px; right:20px; background:#fff; border:1px solid #e2e8f0; width:40px; height:40px; border-radius:50%; font-size:1.2rem; cursor:pointer; color:#2B7EC0; z-index:10; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); transition:all 0.3s;"><i
                 class="bi bi-x-lg"></i></button>
         <iframe id="bookTestIframe" src="" style="width:100%; height:100%; border:none;"></iframe>
     </div>
@@ -1762,9 +1762,9 @@ include 'includes/header.php';
             targetTab.style.display = "block";
         }
         evt.currentTarget.className += " active";
-        evt.currentTarget.style.background = "#0A58CA";
+        evt.currentTarget.style.background = "#2B7EC0";
         evt.currentTarget.style.color = "#fff";
-        evt.currentTarget.style.borderColor = "#0A58CA";
+        evt.currentTarget.style.borderColor = "#2B7EC0";
     }
 
     document.addEventListener('DOMContentLoaded', function () {

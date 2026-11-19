@@ -4,7 +4,7 @@ require_once __DIR__ . '/includes/mail_sender.php';
 $testTo = $_GET['to'] ?? 'mamatha14031995@gmail.com';
 
 echo "<div style='font-family: sans-serif; max-width: 650px; margin: 40px auto; padding: 25px; border: 1px solid #e2e8f0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.06);'>";
-echo "<h2 style='color: #0d47a1; margin-top: 0;'>AKC SMTP Email Dispatch Test</h2>";
+echo "<h2 style='color: #2B7EC0; margin-top: 0;'>AKC SMTP Email Dispatch Test</h2>";
 echo "<p>Sending test email to: <strong>" . htmlspecialchars($testTo) . "</strong>...</p>";
 
 $subject = "AKC System Test - SMTP Live Verification";
@@ -31,7 +31,7 @@ if ($res['sent_external']) {
 }
 
 echo "<div style='margin-top: 25px;'>";
-echo "<a href='forgot-password.php' style='display: inline-block; padding: 10px 18px; background: #0d47a1; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;'>Go to Forgot Password Page &rarr;</a>";
+echo "<a href='forgot-password.php' style='display: inline-block; padding: 10px 18px; background: #2B7EC0; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;'>Go to Forgot Password Page &rarr;</a>";
 echo "</div>";
 echo "</div>";
 

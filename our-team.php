@@ -186,7 +186,7 @@ include 'includes/header.php';
                 font-weight: 600;
                 margin-top: 0;
                 margin-bottom: 8px;
-                color: #081D33;
+                color: #373435;
             }
             .multi-team p {
                 color: #555;
@@ -202,7 +202,7 @@ include 'includes/header.php';
                 LEADERSHIP 
                 <span class="line" style="display: inline-block; width: 30px; height: 2px; background-color: var(--accent-red); margin: 0 10px;"></span>
             </div>
-            <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">Our Guiding Vision</h2>
+            <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">Our Guiding Vision</h2>
         </div>
 
         <!-- 1. Founder Sir (Photo Left, Text Right) -->
@@ -260,7 +260,7 @@ include 'includes/header.php';
                     <h3>Dr. S.K.Nayak</h3>
                     <div class="designation">Chief Scientific Advisor, AKC PTARC</div>
                     <div style="margin-top: 10px;">
-                        <a href="https://drsknayak.in/" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; color: #0056b3; font-weight: 500; text-decoration: none; font-size: 0.95rem;">
+                        <a href="https://drsknayak.in/" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; color: #2B7EC0; font-weight: 500; text-decoration: none; font-size: 0.95rem;">
                             <i class="fa-solid fa-link"></i> Visit (drsknayak.in)
                         </a>
                     </div>

@@ -13,7 +13,7 @@ include 'includes/header.php';
            GLOBAL VARIABLES & RESET
            ========================================================================== */
     :root {
-        --primary-blue: #0056b3;
+        --primary-blue: #2B7EC0;
         --text-dark: #1e1e1e;
         --text-gray: #555555;
         --white: #ffffff;
@@ -190,7 +190,7 @@ include 'includes/header.php';
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 8px;
-        color: #081D33;
+        color: #373435;
     }
 
     .section-desc {

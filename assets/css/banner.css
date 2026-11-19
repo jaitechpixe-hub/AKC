@@ -1,7 +1,7 @@
 /* Banner Section */
 .hero-banner {
     position: relative;
-    background: #0d47a1;
+    background: #2B7EC0;
     height: 550px;
     display: flex;
     align-items: center;
@@ -111,19 +111,21 @@
     display: inline-block;
     padding: 14px 35px;
     background: #00bcd4;
-    /* Example primary color */
     border: 1.5px solid #00bcd4;
-    color: white;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 600;
     font-size: 16px;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
+    
 }
 
 .btn-primary:hover {
     background: white;
-    color: #0d47a1;
+    border-color: white;
+    color: #ffffff;
+    
 }
 
 .btn-secondary {
@@ -141,7 +143,7 @@
 
 .btn-secondary:hover {
     background: white;
-    color: #0d47a1;
+    color: #2B7EC0;
 }
 
 .trust-bar {

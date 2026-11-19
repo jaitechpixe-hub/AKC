@@ -58,7 +58,7 @@ foreach ($users as $a) {
         }
 
         h1 {
-            color: #0d47a1;
+            color: #2B7EC0;
             margin-top: 0;
         }
 
@@ -114,7 +114,7 @@ foreach ($users as $a) {
         }
 
         .btn-primary {
-            background: #0d47a1;
+            background: #2B7EC0;
             color: white;
         }
 

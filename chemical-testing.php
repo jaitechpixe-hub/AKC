@@ -81,10 +81,10 @@ include 'includes/header.php';
 
             <div class="categories-section-header">
                 <div
-                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #0A58CA; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
-                    <span style="width: 24px; height: 2px; background-color: #0A58CA; display: inline-block;"></span>
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #2B7EC0; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
+                    <span style="width: 24px; height: 2px; background-color: #2B7EC0; display: inline-block;"></span>
                     WHAT WE TEST
-                    <span style="width: 24px; height: 2px; background-color: #0A58CA; display: inline-block;"></span>
+                    <span style="width: 24px; height: 2px; background-color: #2B7EC0; display: inline-block;"></span>
                 </div>
                 <h2>Comprehensive Chemical Analysis Across All Material Categories</h2>
                 <p style="max-width: 850px; line-height: 1.7; margin-bottom: 15px;">Chemical testing is at the core of
@@ -254,17 +254,17 @@ include 'includes/header.php';
 
             <div class="facility-header" style="margin-bottom: 30px;">
                 <div
-                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #0A58CA; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #2B7EC0; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
                     <span style="width: 24px; height: 2px; background-color: #E11D48; display: inline-block;"></span>
-                    <span style="color: #0A58CA;">CHECK OUR FACILITIES</span>
+                    <span style="color: #2B7EC0;">CHECK OUR FACILITIES</span>
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">
                     Facility</h2>
 
                 <!-- Tabs -->
                 <div class="facility-tabs" style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 40px;">
                     <button class="tab-btn active"
-                        style="background: #0A58CA; color: white; border: 1px solid #0A58CA; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 8px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(10, 88, 202, 0.2);">
+                        style="background: #2B7EC0; color: white; border: 1px solid #2B7EC0; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 8px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(10, 88, 202, 0.2);">
                         <i class="fa-solid fa-flask"></i> Chemical
                     </button>
                     <button class="tab-btn"
@@ -324,7 +324,7 @@ include 'includes/header.php';
                             style="width: 24px; height: 2px; background-color: #E11D48; display: inline-block;"></span>
                         SUPPORT
                     </div>
-                    <h2 style="font-size: 1.5rem; font-weight: 700; color: #0A58CA; margin: 0; line-height: 1.2;">
+                    <h2 style="font-size: 1.5rem; font-weight: 700; color: #2B7EC0; margin: 0; line-height: 1.2;">
                         Frequently Asked<br>Questions</h2>
                 </div>
 
@@ -353,12 +353,12 @@ include 'includes/header.php';
 
                 <!-- FAQ Item 1 -->
                 <div class="faq-item"
-                    style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #0A58CA; overflow: hidden; transition: all 0.3s ease;">
+                    style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #2B7EC0; overflow: hidden; transition: all 0.3s ease;">
                     <div class="faq-header-toggle"
-                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #0A58CA; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #2B7EC0; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                         What chemical testing services does AKC provide?
                         <i class="fa-solid fa-chevron-up"
-                            style="color: #ffffff; background: #0A58CA; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
+                            style="color: #ffffff; background: #2B7EC0; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
                     </div>
                     <div class="faq-body"
                         style="padding: 0 25px 25px 25px; color: #64748B; line-height: 1.7; display: block;">
@@ -371,15 +371,15 @@ include 'includes/header.php';
 
                         <div class="feedback-actions"
                             style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                            <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                             <div style="display: flex; gap: 15px;">
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                 </div>
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +390,7 @@ include 'includes/header.php';
                 <div class="faq-item"
                     style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #E2E8F0; overflow: hidden; transition: all 0.3s ease;">
                     <div class="faq-header-toggle"
-                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #081D33; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #373435; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                         How long does chemical testing take?
                         <i class="fa-solid fa-chevron-down"
                             style="color: #64748B; background: #F1F5F9; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
@@ -404,15 +404,15 @@ include 'includes/header.php';
                         </div>
                         <div class="feedback-actions"
                             style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                            <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                             <div style="display: flex; gap: 15px;">
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                 </div>
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +423,7 @@ include 'includes/header.php';
                 <div class="faq-item"
                     style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #E2E8F0; overflow: hidden; transition: all 0.3s ease;">
                     <div class="faq-header-toggle"
-                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #081D33; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #373435; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                         Are your chemical testing reports accepted by international regulators?
                         <i class="fa-solid fa-chevron-down"
                             style="color: #64748B; background: #F1F5F9; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
@@ -437,15 +437,15 @@ include 'includes/header.php';
                         </div>
                         <div class="feedback-actions"
                             style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                            <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                             <div style="display: flex; gap: 15px;">
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                 </div>
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                 </div>
                             </div>
                         </div>
@@ -456,7 +456,7 @@ include 'includes/header.php';
                 <div class="faq-item"
                     style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #E2E8F0; overflow: hidden; transition: all 0.3s ease;">
                     <div class="faq-header-toggle"
-                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #081D33; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #373435; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                         Can AKC provide certification reports?
                         <i class="fa-solid fa-chevron-down"
                             style="color: #64748B; background: #F1F5F9; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
@@ -469,15 +469,15 @@ include 'includes/header.php';
                         </div>
                         <div class="feedback-actions"
                             style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                            <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                             <div style="display: flex; gap: 15px;">
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                 </div>
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                 </div>
                             </div>
                         </div>
@@ -488,7 +488,7 @@ include 'includes/header.php';
                 <div class="faq-item"
                     style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid #E2E8F0; overflow: hidden; transition: all 0.3s ease;">
                     <div class="faq-header-toggle"
-                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #081D33; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: #373435; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                         What sample submission requirements apply?
                         <i class="fa-solid fa-chevron-down"
                             style="color: #64748B; background: #F1F5F9; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
@@ -502,15 +502,15 @@ include 'includes/header.php';
                         </div>
                         <div class="feedback-actions"
                             style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                            <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                             <div style="display: flex; gap: 15px;">
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                 </div>
                                 <div
                                     style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                    <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                    <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                 </div>
                             </div>
                         </div>
@@ -523,7 +523,7 @@ include 'includes/header.php';
 
     <!-- Final Call to Action Section -->
     <section class="chemical-cta-section"
-        style="padding: 80px 20px; text-align: center; background: #0d47a1; color: white;">
+        style="padding: 80px 20px; text-align: center; background: #2B7EC0; color: white;">
         <div class="cta-container" style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto;">
             <h2 style="font-size: 32px; font-weight: 600; color: #ffffff; margin-top: 0; margin-bottom: 8px;">Ready to
                 Get Started?</h2>
@@ -534,7 +534,7 @@ include 'includes/header.php';
 
             <div class="cta-actions" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
                 <a href="mailto:info@akc.com" class="btn-primary"
-                    style="background: white; color: #0d47a1; padding: 16px 40px; font-size: 16px; font-weight: bold; border-radius: 6px; text-decoration: none;">
+                    style="background: white; color: #2B7EC0; padding: 16px 40px; font-size: 16px; font-weight: bold; border-radius: 6px; text-decoration: none;">
                     Request a Test
                 </a>
                 <a href="#" class="btn-outline"
@@ -560,16 +560,16 @@ include 'includes/header.php';
                 if (body.style.display === 'none' || body.style.display === '') {
                     body.style.display = 'block';
                     icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
-                    icon.style.backgroundColor = '#0A58CA';
+                    icon.style.backgroundColor = '#2B7EC0';
                     icon.style.color = '#ffffff';
-                    this.style.color = '#0A58CA';
-                    parent.style.borderColor = '#0A58CA';
+                    this.style.color = '#2B7EC0';
+                    parent.style.borderColor = '#2B7EC0';
                 } else {
                     body.style.display = 'none';
                     icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
                     icon.style.backgroundColor = '#F1F5F9';
                     icon.style.color = '#64748B';
-                    this.style.color = '#081D33';
+                    this.style.color = '#373435';
                     parent.style.borderColor = '#E2E8F0';
                 }
             });

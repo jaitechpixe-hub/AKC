@@ -70,7 +70,7 @@ function akc_log_email($to_email, $to_name, $subject, $body_html, $action_link =
     </div>\n";
 
     if (!file_exists($log_file)) {
-        $header = "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>AKC System Outgoing Email Log</title><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body style='background: #f1f5f9; padding: 30px; margin: 0; font-family: Montserrat, sans-serif;'><div style='max-width: 900px; margin: 0 auto;'><div style='background: #0A58CA; color: white; padding: 20px 25px; border-radius: 12px; margin-bottom: 25px;'><h2>AKC Email Dispatch Log</h2><p style='margin: 0; opacity: 0.9;'>Audit trail of outgoing test confirmations, status alerts, and password resets.</p></div>";
+        $header = "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>AKC System Outgoing Email Log</title><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body style='background: #f1f5f9; padding: 30px; margin: 0; font-family: Montserrat, sans-serif;'><div style='max-width: 900px; margin: 0 auto;'><div style='background: #2B7EC0; color: white; padding: 20px 25px; border-radius: 12px; margin-bottom: 25px;'><h2>AKC Email Dispatch Log</h2><p style='margin: 0; opacity: 0.9;'>Audit trail of outgoing test confirmations, status alerts, and password resets.</p></div>";
         @file_put_contents($log_file, $header . $entry);
     } else {
         @file_put_contents($log_file, $entry, FILE_APPEND);
@@ -205,21 +205,21 @@ function akc_send_booking_confirmation($booking) {
 
     $client_html = "
     <div style='font-family: Arial, Helvetica, sans-serif; max-width: 650px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;'>
-        <div style='background: linear-gradient(135deg, #0A58CA 0%, #003a8c 100%); padding: 30px 25px; text-align: center; color: white;'>
+        <div style='background: linear-gradient(135deg, #2B7EC0 0%, #003a8c 100%); padding: 30px 25px; text-align: center; color: white;'>
             <h1 style='margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #ffffff;'>AKC - PACKAGING TECHNOLOGY & RESEARCH CENTRE</h1>
             <p style='margin: 0; font-size: 14px; opacity: 0.9;'>NABL Accredited & ISO/IEC 17025 Certified Testing Laboratory</p>
         </div>
         <div style='padding: 30px 25px; color: #1e293b; line-height: 1.6;'>
-            <h2 style='color: #0A58CA; margin-top: 0; font-size: 20px;'>Booking Confirmation #{$booking_id}</h2>
+            <h2 style='color: #2B7EC0; margin-top: 0; font-size: 20px;'>Booking Confirmation #{$booking_id}</h2>
             <p>Dear <strong>" . htmlspecialchars($customer_name) . "</strong>,</p>
             <p>Thank you for submitting your testing request with AKC. Your booking request has been successfully recorded in our laboratory system with status <span style='background: #fef3c7; color: #92400e; padding: 3px 8px; border-radius: 4px; font-weight: 700;'>PENDING REVIEW</span>.</p>
             
             <div style='background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; margin: 25px 0;'>
-                <h3 style='margin-top: 0; font-size: 16px; color: #0f172a; border-bottom: 2px solid #0A58CA; padding-bottom: 8px;'>Booking Summary</h3>
+                <h3 style='margin-top: 0; font-size: 16px; color: #0f172a; border-bottom: 2px solid #2B7EC0; padding-bottom: 8px;'>Booking Summary</h3>
                 <table style='width: 100%; border-collapse: collapse; font-size: 14px;'>
                     <tr>
                         <td style='padding: 8px 0; color: #64748b; width: 40%;'><strong>Reference Number:</strong></td>
-                        <td style='padding: 8px 0; font-weight: 600; color: #0A58CA;'>#" . htmlspecialchars($booking_id) . "</td>
+                        <td style='padding: 8px 0; font-weight: 600; color: #2B7EC0;'>#" . htmlspecialchars($booking_id) . "</td>
                     </tr>
                     <tr>
                         <td style='padding: 8px 0; color: #64748b;'><strong>Sample Type:</strong></td>
@@ -263,7 +263,7 @@ function akc_send_booking_confirmation($booking) {
                     <table style='width: 100%; border-collapse: collapse; font-size: 14px;'>
                         <tr>
                             <td style='padding: 6px 0; color: #475569; width: 35%;'><strong>Login Link:</strong></td>
-                            <td style='padding: 6px 0;'><a href='{$login_url}' target='_blank' style='color: #0A58CA; font-weight: 600; text-decoration: underline;'>{$login_url}</a></td>
+                            <td style='padding: 6px 0;'><a href='{$login_url}' target='_blank' style='color: #2B7EC0; font-weight: 600; text-decoration: underline;'>{$login_url}</a></td>
                         </tr>
                         <tr>
                             <td style='padding: 6px 0; color: #475569;'><strong>Username / Email:</strong></td>
@@ -279,13 +279,13 @@ function akc_send_booking_confirmation($booking) {
                 </div>
 
                 <div style='text-align: center; margin: 18px 0 14px 0;'>
-                    <a href='{$login_url}' target='_blank' style='display: inline-block; background: #0A58CA; color: #ffffff; padding: 12px 28px; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none; box-shadow: 0 2px 6px rgba(10,88,202,0.3);'>
+                    <a href='{$login_url}' target='_blank' style='display: inline-block; background: #2B7EC0; color: #ffffff; padding: 12px 28px; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none; box-shadow: 0 2px 6px rgba(10,88,202,0.3);'>
                         Log In to Client Dashboard &rarr;
                     </a>
                 </div>
 
                 <div style='background: #ffffff; border-left: 3px solid #f59e0b; padding: 10px 14px; border-radius: 4px; font-size: 12.5px; color: #475569; line-height: 1.5;'>
-                    <strong>💡 Need to change your password?</strong> You can change your password anytime after logging in, or reset it anytime using our <a href='{$forgot_pwd_url}' target='_blank' style='color: #0A58CA; font-weight: 600; text-decoration: underline;'>Forgot Password</a> option.
+                    <strong>💡 Need to change your password?</strong> You can change your password anytime after logging in, or reset it anytime using our <a href='{$forgot_pwd_url}' target='_blank' style='color: #2B7EC0; font-weight: 600; text-decoration: underline;'>Forgot Password</a> option.
                 </div>
             </div>
 
@@ -314,7 +314,7 @@ function akc_send_booking_confirmation($booking) {
     $admin_subject = "New Test Booking Request #" . $booking_id . " - " . $customer_name;
     $admin_html = "
     <div style='font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 25px;'>
-        <h2 style='color: #0A58CA; margin-top: 0;'>New Test Booking Received</h2>
+        <h2 style='color: #2B7EC0; margin-top: 0;'>New Test Booking Received</h2>
         <p>A new test booking has been submitted online through the portal.</p>
         <ul>
             <li><strong>Booking ID:</strong> #" . htmlspecialchars($booking_id) . "</li>
@@ -327,7 +327,7 @@ function akc_send_booking_confirmation($booking) {
             <li><strong>Description:</strong> " . htmlspecialchars($sample_desc) . "</li>
             <li><strong>Requirements:</strong> " . nl2br(htmlspecialchars($requirements)) . "</li>
         </ul>
-        <p><a href='" . akc_get_base_url() . "/admin_dashboard.php' style='display:inline-block; padding:10px 20px; background:#0A58CA; color:white; text-decoration:none; border-radius:6px; font-weight:600;'>Open Admin Dashboard</a></p>
+        <p><a href='" . akc_get_base_url() . "/admin_dashboard.php' style='display:inline-block; padding:10px 20px; background:#2B7EC0; color:white; text-decoration:none; border-radius:6px; font-weight:600;'>Open Admin Dashboard</a></p>
     </div>";
 
     akc_send_mail('info@akc-ptarc.com', 'AKC Lab Admin', $admin_subject, $admin_html);
@@ -349,7 +349,7 @@ function akc_send_password_reset($user, $token) {
 
     $html = "
     <div style='font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;'>
-        <div style='background: linear-gradient(135deg, #0A58CA 0%, #003a8c 100%); padding: 25px; text-align: center; color: white;'>
+        <div style='background: linear-gradient(135deg, #2B7EC0 0%, #003a8c 100%); padding: 25px; text-align: center; color: white;'>
             <h1 style='margin: 0; font-size: 22px; font-weight: 700; color: white;'>AKC - PACKAGING TECHNOLOGY & RESEARCH CENTRE</h1>
         </div>
         <div style='padding: 30px 25px; color: #1e293b; line-height: 1.6;'>
@@ -359,14 +359,14 @@ function akc_send_password_reset($user, $token) {
             
             <div style='text-align: center; margin: 30px 0;'>
                 <a href='" . htmlspecialchars($reset_link) . "' 
-                   style='display: inline-block; background: #0A58CA; color: #ffffff; padding: 14px 32px; font-size: 15px; font-weight: 600; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(10, 88, 202, 0.25);'>
+                   style='display: inline-block; background: #2B7EC0; color: #ffffff; padding: 14px 32px; font-size: 15px; font-weight: 600; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(10, 88, 202, 0.25);'>
                     Reset My Password
                 </a>
             </div>
 
             <p style='font-size: 14px; color: #475569;'>If the button above does not work, copy and paste this link into your browser:</p>
             <p style='background: #f8fafc; padding: 12px; border-radius: 6px; word-break: break-all; font-size: 13px; border: 1px solid #e2e8f0;'>
-                <a href='" . htmlspecialchars($reset_link) . "' style='color: #0A58CA;'>" . htmlspecialchars($reset_link) . "</a>
+                <a href='" . htmlspecialchars($reset_link) . "' style='color: #2B7EC0;'>" . htmlspecialchars($reset_link) . "</a>
             </p>
 
             <p style='font-size: 13px; color: #dc2626;'>
@@ -403,7 +403,7 @@ function akc_get_service_display_info($service_key) {
             return [
                 'name' => 'Testing & Certification',
                 'badge' => 'Testing & Certification Division',
-                'badge_color' => '#0A58CA',
+                'badge_color' => '#2B7EC0',
                 'bg_color' => '#eff6ff',
                 'border_color' => '#bfdbfe',
                 'description' => 'Management of laboratory test bookings, NABL sample processing, analyst assignments, and test certification.'
@@ -475,13 +475,13 @@ function akc_send_admin_assignment_notification($admin_data, $service_key = '', 
 
     $html = "
     <div style='font-family: Arial, Helvetica, sans-serif; max-width: 620px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden;'>
-        <div style='background: #0A58CA; padding: 25px 20px; text-align: center; color: white;'>
+        <div style='background: #2B7EC0; padding: 25px 20px; text-align: center; color: white;'>
             <h1 style='margin: 0 0 6px 0; font-size: 20px; font-weight: 700; color: #ffffff;'>AKC - PACKAGING TECHNOLOGY &amp; RESEARCH CENTRE</h1>
             <p style='margin: 0; font-size: 13px; opacity: 0.9;'>NABL Accredited &amp; ISO Certified Polymer Research Center</p>
         </div>
         
         <div style='padding: 25px 22px; color: #1e293b; line-height: 1.6;'>
-            <h2 style='color: #0A58CA; margin-top: 0; font-size: 18px;'>{$header_title}</h2>
+            <h2 style='color: #2B7EC0; margin-top: 0; font-size: 18px;'>{$header_title}</h2>
             <p>Hello <strong>" . htmlspecialchars($fullname) . "</strong>,</p>
             <p style='font-size: 14px;'>{$intro_msg}</p>
 
@@ -505,7 +505,7 @@ function akc_send_admin_assignment_notification($admin_data, $service_key = '', 
                 <table style='width: 100%; border-collapse: collapse; font-size: 13.5px;'>
                     <tr>
                         <td style='padding: 6px 0; color: #64748b; width: 35%;'><strong>Portal URL:</strong></td>
-                        <td style='padding: 6px 0;'><a href='{$login_url}' target='_blank' style='color: #0A58CA; font-weight: 600; text-decoration: underline;'>{$login_url}</a></td>
+                        <td style='padding: 6px 0;'><a href='{$login_url}' target='_blank' style='color: #2B7EC0; font-weight: 600; text-decoration: underline;'>{$login_url}</a></td>
                     </tr>
                     <tr>
                         <td style='padding: 6px 0; color: #64748b;'><strong>Username:</strong></td>
@@ -534,13 +534,13 @@ function akc_send_admin_assignment_notification($admin_data, $service_key = '', 
                 </table>
 
                 <div style='text-align: center; margin: 20px 0 10px 0;'>
-                    <a href='{$login_url}' target='_blank' style='display: inline-block; background: #0A58CA; color: #ffffff; padding: 11px 26px; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;'>
+                    <a href='{$login_url}' target='_blank' style='display: inline-block; background: #2B7EC0; color: #ffffff; padding: 11px 26px; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;'>
                         Open Admin Portal &rarr;
                     </a>
                 </div>
 
                 <div style='font-size: 12px; color: #64748b; margin-top: 12px; text-align: center;'>
-                    You can change your access passkey anytime via our <a href='{$forgot_pwd_url}' target='_blank' style='color: #0A58CA; text-decoration: underline;'>Account Recovery Page</a>.
+                    You can change your access passkey anytime via our <a href='{$forgot_pwd_url}' target='_blank' style='color: #2B7EC0; text-decoration: underline;'>Account Recovery Page</a>.
                 </div>
             </div>
 

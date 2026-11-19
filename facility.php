@@ -12,12 +12,12 @@ include 'includes/header.php';
 
             <div class="section-header reveal" style="text-align: center; margin-bottom: 40px;">
                 <div class="browse-label"
-                    style="justify-content: center; color: #0d47a1; font-weight: bold; letter-spacing: 1px; margin-top: 0; margin-bottom: 8px; display: flex; align-items: center; gap: 10px;">
+                    style="justify-content: center; color: #2B7EC0; font-weight: bold; letter-spacing: 1px; margin-top: 0; margin-bottom: 8px; display: flex; align-items: center; gap: 10px;">
                     <span class="label-line"
                         style="width: 30px; height: 2px; background: #ff3b3b; display: inline-block;"></span>
                     OUR CAPABILITIES
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">Testing & Analysis Across Every Material Category</h2>
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">Testing & Analysis Across Every Material Category</h2>
                 <p style="font-size: 16px; color: #555; max-width: 800px; margin: 0 auto; line-height: 1.7;">From polymers and packaging
                     to textiles, rubber, and medical devices — our certified labs are equipped for precision testing
                     across 8 scientific disciplines.</p>

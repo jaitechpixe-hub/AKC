@@ -426,7 +426,7 @@ $products = $productsStmt->fetchAll(PDO::FETCH_ASSOC);
                 style="display: flex; justify-content: center; align-items: center; margin-bottom: 50px;">
                 <div style="text-align: center; flex: 1; padding: 0 20px;">
                     <h2
-                        style="color: #081D33; font-size: 32px; font-weight: 600; margin: 0 0 8px 0; text-transform: none;">
+                        style="color: #373435; font-size: 32px; font-weight: 600; margin: 0 0 8px 0; text-transform: none;">
                         Regulatory,
                         Accreditation & Recognition Bodies</h2>
                     <p style="color: #64748b; font-size: 16px; margin: 0; font-weight: 400; text-transform: none;">

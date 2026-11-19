@@ -77,7 +77,7 @@ if (!empty($samples)) {
 
 $htmlEmail = "
 <div style='font-family: Arial, Helvetica, sans-serif; max-width: 680px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;'>
-    <div style='background: linear-gradient(135deg, #0A58CA 0%, #1e3a8a 100%); padding: 25px 30px; color: #ffffff;'>
+    <div style='background: linear-gradient(135deg, #2B7EC0 0%, #1e3a8a 100%); padding: 25px 30px; color: #ffffff;'>
         <h2 style='margin: 0 0 6px 0; font-size: 22px; font-weight: 700;'>AKC Monthly Operations Digest</h2>
         <p style='margin: 0; font-size: 14px; opacity: 0.9;'>Testing Requests & Status Overview &bull; <strong>{$monthLabel}</strong></p>
     </div>

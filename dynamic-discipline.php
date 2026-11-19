@@ -118,8 +118,8 @@ include 'includes/header.php';
 
                 <div class="chemical-hero-btns">
                     <a href="#categories"
-                        style="display: inline-block; padding: 14px 32px; background: #0A58CA; color: white; font-weight: 700; font-size: 1rem; border-radius: 6px; text-decoration: none; border: none; letter-spacing: 0.5px;"
-                        onmouseover="this.style.background='#0d6efd'" onmouseout="this.style.background='#0A58CA'"
+                        style="display: inline-block; padding: 14px 32px; background: #2B7EC0; color: white; font-weight: 700; font-size: 1rem; border-radius: 6px; text-decoration: none; border: none; letter-spacing: 0.5px;"
+                        onmouseover="this.style.background='#0d6efd'" onmouseout="this.style.background='#2B7EC0'"
                         onclick="event.preventDefault(); const target = document.getElementById('categories'); const offset = 80; const bodyRect = document.body.getBoundingClientRect().top; const elementRect = target.getBoundingClientRect().top; const elementPosition = elementRect - bodyRect; const offsetPosition = elementPosition - offset; window.scrollTo({ top: offsetPosition, behavior: 'smooth' });">
                         <?php echo (strtolower($slug) === 'mechanical' || strtolower($slug) === 'rheological' || strtolower($slug) === 'thermal') ? 'Request Testing' : 'Explore Testing Categories'; ?>
                         <i class="fa-solid fa-flask" style="margin-left: 8px;"></i>
@@ -172,10 +172,10 @@ include 'includes/header.php';
 
             <div class="categories-section-header">
                 <div
-                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #0A58CA; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
-                    <span style="width: 24px; height: 2px; background-color: #0A58CA; display: inline-block;"></span>
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #2B7EC0; font-weight: 700; font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px;">
+                    <span style="width: 24px; height: 2px; background-color: #2B7EC0; display: inline-block;"></span>
                     <?php echo (strtolower($slug) === 'mechanical' || strtolower($slug) === 'rheological' || strtolower($slug) === 'thermal') ? 'OVERVIEW' : 'WHAT WE TEST'; ?>
-                    <span style="width: 24px; height: 2px; background-color: #0A58CA; display: inline-block;"></span>
+                    <span style="width: 24px; height: 2px; background-color: #2B7EC0; display: inline-block;"></span>
                 </div>
                 <h2><?php
                 if (strtolower($slug) === 'mechanical') {
@@ -203,7 +203,7 @@ include 'includes/header.php';
 
                     <div
                         style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 15px; margin-top: 10px; font-weight: 600; color: #64748B; font-size: 0.95rem;">
-                        <span style="color: #0A58CA; margin-right: 5px;">Related Services:</span>
+                        <span style="color: #2B7EC0; margin-right: 5px;">Related Services:</span>
                         <span>Tensile Testing</span> <span style="color: #cbd5e1;">|</span>
                         <span>Seal Strength</span> <span style="color: #cbd5e1;">|</span>
                         <span>Burst Strength</span> <span style="color: #cbd5e1;">|</span>
@@ -226,7 +226,7 @@ include 'includes/header.php';
 
                     <div
                         style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 15px; margin-top: 10px; font-weight: 600; color: #64748B; font-size: 0.95rem;">
-                        <span style="color: #0A58CA; margin-right: 5px;">Related Services:</span>
+                        <span style="color: #2B7EC0; margin-right: 5px;">Related Services:</span>
                         <span>TGA Analysis</span> <span style="color: #cbd5e1;">|</span>
                         <span>DSC Testing</span> <span style="color: #cbd5e1;">|</span>
                         <span>DMA Testing</span> <span style="color: #cbd5e1;">|</span>
@@ -308,7 +308,7 @@ include 'includes/header.php';
                     <span>COMPLIANCE FRAMEWORKS</span>
                     <span style="width: 24px; height: 2px; background-color: #E11D48; display: inline-block;"></span>
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">Testing
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">Testing
                     Standards</h2>
                 <p style="max-width: 800px; margin: 0 auto 40px; color: #64748B; font-size: 16px; line-height: 1.7;">
                     All <?php echo strtolower($slug); ?> testing at AKC is performed in accordance with the following
@@ -320,7 +320,7 @@ include 'includes/header.php';
                     <?php if (strtolower($slug) === 'rheological'): ?>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 3219 /
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 3219 /
                                 ASTM D2196</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Rotational viscometry
                                 standards for determination of viscosity of polymer solutions and dispersions at defined shear
@@ -328,7 +328,7 @@ include 'includes/header.php';
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11443 /
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11443 /
                                 ASTM D3835</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Capillary rheometry —
                                 measuring viscosity of polymer melts at elevated temperatures and high shear rates
@@ -336,7 +336,7 @@ include 'includes/header.php';
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 6721-10 /
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 6721-10 /
                                 ASTM D4440</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Dynamic oscillatory
                                 rheometry — measuring storage modulus, loss modulus, and tan delta of polymer melts and
@@ -344,21 +344,21 @@ include 'includes/header.php';
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 20965</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 20965</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Determination of
                                 extensional viscosity of polymer solutions — relevant to film blowing and fibre spinning
                                 applications.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM D4287
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM D4287
                             </h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Cone-and-plate
                                 viscometry for precise low-sample-volume viscosity measurement at controlled shear.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">National Accreditation
                                 Board for Testing and Calibration Laboratories — the accreditation framework under which all AKC
                                 rheological test results are issued.</p>
@@ -366,38 +366,38 @@ include 'includes/header.php';
                     <?php elseif (strtolower($slug) === 'thermal'): ?>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11358</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11358</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Thermogravimetry of
                                 polymers — general principles for TGA testing methodology and data reporting.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11357</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11357</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Differential scanning
                                 calorimetry for plastics — covering glass transition, melting, and crystallisation analysis.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 6721</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 6721</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Determination of dynamic
                                 mechanical properties of plastics — used in DMA testing for viscoelastic characterisation.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11359</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 11359</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Thermomechanical
                                 analysis of plastics — covering dimensional change, expansion, and probe force measurements.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 75</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 75</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Determination of
                                 temperature of deflection under load (HDT) — for service temperature classification of polymer
                                 materials.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 1133 /
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO 1133 /
                                 ASTM D1238</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Melt flow rate of
                                 thermoplastics — governing MFI measurement for processability and molecular weight consistency.
@@ -405,14 +405,14 @@ include 'includes/header.php';
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM E1131 /
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM E1131 /
                                 E1356 / D5023</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">ASTM standards for TGA,
                                 DSC, and DMA testing of polymeric and composite materials.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">National Accreditation
                                 Board for Testing and Calibration Laboratories — the accreditation framework under which all AKC
                                 thermal test results are issued.</p>
@@ -420,42 +420,42 @@ include 'includes/header.php';
                     <?php elseif (strtolower($slug) === 'mechanical'): ?>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ASTM</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">American Society for
                                 Testing and Materials — widely adopted standards for tensile, impact, seal strength, burst, and
                                 hardness testing of plastics, packaging, rubber, and textiles.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">ISO</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">International
                                 Organisation for Standardisation — globally recognised standards for mechanical property
                                 evaluation of industrial and polymeric materials.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">NABL</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">National Accreditation
                                 Board for Testing and Calibration Laboratories — India's accreditation body under which AKC's
                                 mechanical labs operate.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">BIS</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">BIS</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Bureau of Indian
                                 Standards — applicable Indian standards for material performance, packaging, toys, and consumer
                                 product mechanical compliance.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">EN / DIN</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">EN / DIN</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">European and German
                                 engineering standards — for rubber, textile, and structural mechanical testing to international
                                 export compliance requirements.</p>
                         </div>
                         <div
                             style="background: white; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                            <h4 style="color: #0A58CA; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">TAPPI</h4>
+                            <h4 style="color: #2B7EC0; font-weight: 700; font-size: 1.1rem; margin-bottom: 10px;">TAPPI</h4>
                             <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">Technical Association of
                                 the Pulp and Paper Industry — standards for mechanical testing of paper, board, and packaging
                                 substrates.</p>
@@ -485,7 +485,7 @@ include 'includes/header.php';
                             style="width: 24px; height: 2px; background-color: #E11D48; display: inline-block;"></span>
                         SUPPORT
                     </div>
-                    <h2 style="font-size: 1.5rem; font-weight: 700; color: #0A58CA; margin: 0; line-height: 1.2;">
+                    <h2 style="font-size: 1.5rem; font-weight: 700; color: #2B7EC0; margin: 0; line-height: 1.2;">
                         Frequently Asked<br>Questions</h2>
                 </div>
 
@@ -597,12 +597,12 @@ include 'includes/header.php';
                     $isOpen = ($faqCount === 1);
                     ?>
                     <div class="faq-item"
-                        style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid <?php echo $isOpen ? '#0A58CA' : '#E2E8F0'; ?>; overflow: hidden; transition: all 0.3s ease;">
+                        style="background: white; margin-bottom: 15px; border-radius: 8px; border: 1px solid <?php echo $isOpen ? '#2B7EC0' : '#E2E8F0'; ?>; overflow: hidden; transition: all 0.3s ease;">
                         <div class="faq-header-toggle"
-                            style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: <?php echo $isOpen ? '#0A58CA' : '#081D33'; ?>; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                            style="padding: 20px 25px; font-size: 0.95rem; font-weight: 600; color: <?php echo $isOpen ? '#2B7EC0' : '#373435'; ?>; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
                             <?php echo htmlspecialchars($faq['q']); ?>
                             <i class="fa-solid <?php echo $isOpen ? 'fa-chevron-up' : 'fa-chevron-down'; ?>"
-                                style="color: <?php echo $isOpen ? '#ffffff' : '#64748B'; ?>; background: <?php echo $isOpen ? '#0A58CA' : '#F1F5F9'; ?>; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
+                                style="color: <?php echo $isOpen ? '#ffffff' : '#64748B'; ?>; background: <?php echo $isOpen ? '#2B7EC0' : '#F1F5F9'; ?>; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;"></i>
                         </div>
                         <div class="faq-body"
                             style="padding: 0 25px 25px 25px; color: #64748B; line-height: 1.7; display: <?php echo $isOpen ? 'block' : 'none'; ?>;">
@@ -611,15 +611,15 @@ include 'includes/header.php';
                             </div>
                             <div class="feedback-actions"
                                 style="margin-top: 20px; padding: 15px 20px; background: #F8FAFC; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
-                                <span style="font-weight: 600; color: #0A58CA;">Was This Content Helpful ?</span>
+                                <span style="font-weight: 600; color: #2B7EC0;">Was This Content Helpful ?</span>
                                 <div style="display: flex; gap: 15px;">
                                     <div
                                         style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                        <i class="fa-regular fa-thumbs-up" style="color: #0A58CA;"></i>
+                                        <i class="fa-regular fa-thumbs-up" style="color: #2B7EC0;"></i>
                                     </div>
                                     <div
                                         style="width: 36px; height: 36px; border-radius: 6px; background: #F0F9FF; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s;">
-                                        <i class="fa-regular fa-thumbs-down" style="color: #0A58CA;"></i>
+                                        <i class="fa-regular fa-thumbs-down" style="color: #2B7EC0;"></i>
                                     </div>
                                 </div>
                             </div>
@@ -633,7 +633,7 @@ include 'includes/header.php';
 
     <!-- Final Call to Action Section -->
     <section class="chemical-cta-section"
-        style="padding: 80px 20px; text-align: center; background: #0d47a1; color: white;">
+        style="padding: 80px 20px; text-align: center; background: #2B7EC0; color: white;">
         <div class="cta-container" style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto;">
             <?php if (strtolower($slug) === 'rheological'): ?>
                 <div
@@ -727,16 +727,16 @@ include 'includes/header.php';
                 if (body.style.display === 'none' || body.style.display === '') {
                     body.style.display = 'block';
                     icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
-                    icon.style.backgroundColor = '#0A58CA';
+                    icon.style.backgroundColor = '#2B7EC0';
                     icon.style.color = '#ffffff';
-                    this.style.color = '#0A58CA';
-                    parent.style.borderColor = '#0A58CA';
+                    this.style.color = '#2B7EC0';
+                    parent.style.borderColor = '#2B7EC0';
                 } else {
                     body.style.display = 'none';
                     icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
                     icon.style.backgroundColor = '#F1F5F9';
                     icon.style.color = '#64748B';
-                    this.style.color = '#081D33';
+                    this.style.color = '#373435';
                     parent.style.borderColor = '#E2E8F0';
                 }
             });

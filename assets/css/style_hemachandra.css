@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-    --primary-blue: #0056b3;
+    --primary-blue: #2B7EC0;
     --text-dark: #1e1e1e;
     --text-gray: #555555;
     --white: #ffffff;
@@ -202,7 +202,7 @@ img {
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 8px;
-    color: #081D33;
+    color: #373435;
     line-height: 1.25;
 }
 
@@ -816,7 +816,7 @@ img {
 .pr-section-title {
     font-size: 32px;
     font-weight: 600;
-    color: #081D33;
+    color: #373435;
     margin-top: 0;
     margin-bottom: 8px;
     line-height: 1.25;
@@ -1239,7 +1239,7 @@ img {
 .pr-faq-title {
     font-size: 32px;
     font-weight: 600;
-    color: #081D33;
+    color: #373435;
     line-height: 1.25;
     margin-top: 0;
     margin-bottom: 8px;

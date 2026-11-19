@@ -136,16 +136,22 @@
 
         .main-menu .submenu li a:hover {
             background: #f8fafc !important;
-            color: #2563eb !important;
+            color: #2B7EC0 !important;
             padding-left: 24px !important;
         }
 
         .main-menu .submenu li a i {
             width: 18px !important;
             text-align: center !important;
-            color: #2563eb !important;
+            color: #2B7EC0 !important;
             font-size: 14px !important;
             flex-shrink: 0 !important;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        .main-menu .submenu li a:hover i {
+            color: #2369A1 !important;
+            transform: scale(1.15);
         }
 
         /* Show dropdown on hover */

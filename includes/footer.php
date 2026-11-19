@@ -104,8 +104,8 @@
 
 <!-- Scroll to Top Button -->
 <button id="scrollToTopBtn" title="Go to top"
-    style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 999; font-size: 20px; border: none; outline: none; background-color: #0A58CA; color: white; cursor: pointer; border-radius: 50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); width: 50px; height: 50px; justify-content: center; align-items: center; transition: background-color 0.3s, opacity 0.3s; opacity: 0; pointer-events: none;"
-    onmouseover="this.style.backgroundColor='#0d6efd'" onmouseout="this.style.backgroundColor='#0A58CA'">
+    style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 999; font-size: 20px; border: none; outline: none; background-color: #2B7EC0; color: white; cursor: pointer; border-radius: 50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); width: 50px; height: 50px; justify-content: center; align-items: center; transition: background-color 0.3s, opacity 0.3s; opacity: 0; pointer-events: none;"
+    onmouseover="this.style.backgroundColor='#0d6efd'" onmouseout="this.style.backgroundColor='#2B7EC0'">
     <i class="fa-solid fa-arrow-up"></i>
 </button>
 

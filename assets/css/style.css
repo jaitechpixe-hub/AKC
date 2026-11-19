@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-    --primary-blue: #0056b3;
+    --primary-blue: #2B7EC0;
     --text-dark: #1e1e1e;
     --text-gray: #555555;
     --white: #ffffff;
@@ -42,7 +42,7 @@ h2,
     font-size: 32px;
     font-weight: 600;
     line-height: 1.25;
-    color: #081D33;
+    color: #373435;
 }
 
 h3,
@@ -155,7 +155,7 @@ ul {
     font-size: 32px !important;
     font-weight: 600 !important;
     line-height: 1.25 !important;
-    color: #081D33;
+    color: #373435;
     text-transform: none !important;
     letter-spacing: normal !important;
     margin-top: 0 !important;

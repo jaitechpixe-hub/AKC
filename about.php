@@ -179,24 +179,24 @@ include 'includes/header.php';
             <div class="reveal-group"
                 style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
                 <div class="reveal-child"
-                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid var(--primary-blue); text-align: center;">
-                    <h3 style="color: var(--primary-blue); margin-bottom: 15px; font-size: 1.3rem;">Industrial Need</h3>
+                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid #CF3438; text-align: center;">
+                    <h3 style="color: #CF3438; margin-bottom: 15px; font-size: 1.3rem;">Industrial Need</h3>
                     <p style="font-size: 14px; line-height: 1.6; color: var(--text-muted); margin: 0 auto;">Quality
                         testing and
                         certification, advanced material characterisation, and import substitution support for polymer
                         and packaging manufacturers.</p>
                 </div>
                 <div class="reveal-child"
-                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid var(--primary-blue); text-align: center;">
-                    <h3 style="color: var(--primary-blue); margin-bottom: 15px; font-size: 1.3rem;">Academic Need</h3>
+                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid #CF3438; text-align: center;">
+                    <h3 style="color: #CF3438; margin-bottom: 15px; font-size: 1.3rem;">Academic Need</h3>
                     <p style="font-size: 14px; line-height: 1.6; color: var(--text-muted); margin: 0 auto;">Research
                         infrastructure,
                         industry-oriented R&D facilities, and collaborative platforms for universities and research
                         institutions.</p>
                 </div>
                 <div class="reveal-child"
-                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid var(--primary-blue); text-align: center;">
-                    <h3 style="color: var(--primary-blue); margin-bottom: 15px; font-size: 1.3rem;">Industry-Academic
+                    style="background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid #CF3438; text-align: center;">
+                    <h3 style="color: #CF3438; margin-bottom: 15px; font-size: 1.3rem;">Industry-Academic
                         Interface</h3>
                     <p style="font-size: 14px; line-height: 1.6; color: var(--text-muted); margin: 0 auto;">A shared
                         platform for joint
@@ -548,7 +548,7 @@ include 'includes/header.php';
                 <div class="section-badge center">
                     <span class="line"></span> WHAT WE STAND FOR
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">Our
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">Our
                     Core Values</h2>
                 <p style="font-size: 16px; line-height: 1.7; margin-top: 0;">Principles that guide our work and ensure
                     we consistently deliver<br>excellence to every client.</p>
@@ -605,7 +605,7 @@ include 'includes/header.php';
                 <div class="section-badge center">
                     <span class="line"></span> OUR ADVANTAGE
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">Why
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">Why
                     Choose Us</h2>
                 <p style="font-size: 16px; line-height: 1.7; color: #64748b; margin-top: 0;">Delivering accredited
                     precision, cutting-edge infrastructure, and trusted technical expertise across testing disciplines.
@@ -616,7 +616,7 @@ include 'includes/header.php';
                 style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px;">
                 <!-- Card 1: Certified Industry Experts -->
                 <div class="reveal-child"
-                    style="background: linear-gradient(135deg, #0A58CA 0%, #081D33 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
+                    style="background: linear-gradient(135deg, #2B7EC0 0%, #373435 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
                     onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 18px 35px rgba(10,88,202,0.3)';"
                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 10px 25px rgba(8,29,51,0.12)';">
                     <div
@@ -633,7 +633,7 @@ include 'includes/header.php';
 
                 <!-- Card 2: Advanced Testing Methods -->
                 <div class="reveal-child"
-                    style="background: linear-gradient(135deg, #0A58CA 0%, #081D33 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
+                    style="background: linear-gradient(135deg, #2B7EC0 0%, #373435 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
                     onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 18px 35px rgba(10,88,202,0.3)';"
                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 10px 25px rgba(8,29,51,0.12)';">
                     <div
@@ -650,7 +650,7 @@ include 'includes/header.php';
 
                 <!-- Card 3: Fast Turnaround -->
                 <div class="reveal-child"
-                    style="background: linear-gradient(135deg, #0A58CA 0%, #081D33 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
+                    style="background: linear-gradient(135deg, #2B7EC0 0%, #373435 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
                     onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 18px 35px rgba(10,88,202,0.3)';"
                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 10px 25px rgba(8,29,51,0.12)';">
                     <div
@@ -666,7 +666,7 @@ include 'includes/header.php';
 
                 <!-- Card 4: End-to-End Support -->
                 <div class="reveal-child"
-                    style="background: linear-gradient(135deg, #0A58CA 0%, #081D33 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
+                    style="background: linear-gradient(135deg, #2B7EC0 0%, #373435 100%); border-radius: 16px; padding: 35px 30px; color: #ffffff; box-shadow: 0 10px 25px rgba(8,29,51,0.12); display: flex; flex-direction: column; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);"
                     onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 18px 35px rgba(10,88,202,0.3)';"
                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 10px 25px rgba(8,29,51,0.12)';">
                     <div
@@ -690,7 +690,7 @@ include 'includes/header.php';
                 <div class="section-badge center">
                     <span class="line"></span> OUR CAPABILITIES
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">What
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">What
                     We Do</h2>
                 <p style="font-size: 16px; line-height: 1.7;">Comprehensive testing and quality solutions across the
                     full industrial lifecycle.</p>
@@ -756,7 +756,7 @@ include 'includes/header.php';
                 <div class="section-badge center">
                     <span class="line"></span> DISCIPLINES WE CATER TO
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">
                     Comprehensive Testing for Every Need</h2>
                 <p style="font-size: 16px; line-height: 1.7; margin-top: 0;">Specialized testing expertise across four
                     core scientific and engineering disciplines.</p>
@@ -812,7 +812,7 @@ include 'includes/header.php';
     </section>
 
     <!-- Our Testing Process Section -->
-    <section class="testing-process" style="background: var(--dark-blue); padding: 100px 0;">
+    <section class="testing-process">
         <div class="container">
             <div class="section-header center reveal">
                 <div class="section-badge center" style="color: #ffffff;">
@@ -889,7 +889,7 @@ include 'includes/header.php';
                     <div class="section-badge">
                         <span class="line"></span> CLIENT VOICES
                     </div>
-                    <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">
+                    <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">
                         What Our Clients Say</h2>
                     <p style="font-size: 16px; line-height: 1.7; color: var(--text-muted); margin-top: 0;">Real feedback
                         from the industry leaders who trust AKC-PTARC to deliver<br>precision testing and quality
@@ -958,7 +958,7 @@ include 'includes/header.php';
                 <div class="section-badge center">
                     <span class="line"></span> STANDARDS WE UPHOLD
                 </div>
-                <h2 style="font-size: 32px; font-weight: 600; color: #081D33; margin-top: 0; margin-bottom: 8px;">
+                <h2 style="font-size: 32px; font-weight: 600; color: #373435; margin-top: 0; margin-bottom: 8px;">
                     Recognised. Accredited. Trusted.</h2>
             </div>
 
@@ -966,28 +966,28 @@ include 'includes/header.php';
                 style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 900px; margin: 0 auto;">
                 <div class="reveal-child"
                     style="background: var(--white); padding: 20px 30px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                    <i class="fa-solid fa-award" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                    <i class="fa-solid fa-award" style="color: #CF3438; font-size: 1.5rem;"></i>
                     <span style="font-weight: 700; color: var(--dark-blue);">NABL Accreditation – ISO/IEC
                         17025:2017</span>
                 </div>
                 <div class="reveal-child"
                     style="background: var(--white); padding: 20px 30px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                    <i class="fa-solid fa-shield-halved" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                    <i class="fa-solid fa-shield-halved" style="color: #CF3438; font-size: 1.5rem;"></i>
                     <span style="font-weight: 700; color: var(--dark-blue);">GMP Certified Laboratory Practices</span>
                 </div>
                 <div class="reveal-child"
                     style="background: var(--white); padding: 20px 30px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                    <i class="fa-solid fa-leaf" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                    <i class="fa-solid fa-leaf" style="color: #CF3438; font-size: 1.5rem;"></i>
                     <span style="font-weight: 700; color: var(--dark-blue);">OECD GLP Compliance</span>
                 </div>
                 <div class="reveal-child"
                     style="background: var(--white); padding: 20px 30px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                    <i class="fa-solid fa-globe" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                    <i class="fa-solid fa-globe" style="color: #CF3438; font-size: 1.5rem;"></i>
                     <span style="font-weight: 700; color: var(--dark-blue);">ILAC-MRA Member</span>
                 </div>
                 <div class="reveal-child"
                     style="background: var(--white); padding: 20px 30px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                    <i class="fa-solid fa-check-double" style="color: var(--primary-blue); font-size: 1.5rem;"></i>
+                    <i class="fa-solid fa-check-double" style="color: #CF3438; font-size: 1.5rem;"></i>
                     <span style="font-weight: 700; color: var(--dark-blue);">ISO 9001 Quality Management System</span>
                 </div>
             </div>

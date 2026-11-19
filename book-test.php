@@ -209,12 +209,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $infoBox = "<div style='margin-top: 14px; padding: 15px 18px; background: #f0f7ff; border: 1.5px solid #bfdbfe; border-radius: 10px; font-size: 14px; line-height: 1.6; color: #1e3a8a; text-align: left;'>
                 <div style='margin-bottom: 10px; font-weight: 500;'>
-                    <i class='fa-solid fa-envelope' style='color: #0A58CA; font-size: 16px; margin-right: 8px;'></i>
+                    <i class='fa-solid fa-envelope' style='color: #2B7EC0; font-size: 16px; margin-right: 8px;'></i>
                     You will receive your login credentials to your email: <strong style='color: #0f172a; text-decoration: underline; font-size: 14.5px;'>{$client_email}</strong>
                 </div>
                 <div style='padding-top: 10px; border-top: 1px dashed #93c5fd; color: #475569; font-size: 13.5px;'>
-                    <i class='fa-solid fa-circle-info' style='color: #0A58CA; margin-right: 6px;'></i>
-                    If you didn't receive any email, <a href='{$forgot_pwd_url}' target='_blank' style='color: #0A58CA; font-weight: 700; text-decoration: underline;'>reset your password from this link</a> and use your email (<strong style='color: #1e293b;'>{$client_email}</strong>) for your username.
+                    <i class='fa-solid fa-circle-info' style='color: #2B7EC0; margin-right: 6px;'></i>
+                    If you didn't receive any email, <a href='{$forgot_pwd_url}' target='_blank' style='color: #2B7EC0; font-weight: 700; text-decoration: underline;'>reset your password from this link</a> and use your email (<strong style='color: #1e293b;'>{$client_email}</strong>) for your username.
                 </div>
             </div>";
 

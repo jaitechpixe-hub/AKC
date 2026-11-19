@@ -91,7 +91,7 @@ include 'includes/header.php';
     <section class="about-section" style="padding: 100px 20px; background: white;">
         <div class="about-container" style="text-align: center; max-width: 900px; margin: 0 auto;">
             <div class="section-label"
-                style="color: #0d47a1; font-weight: bold; letter-spacing: 1px; margin-bottom: 20px;">WHO WE ARE</div>
+                style="color: #2B7EC0; font-weight: bold; letter-spacing: 1px; margin-bottom: 20px;">WHO WE ARE</div>
             <h2 style="font-size: 40px; line-height: 40px;">Built by Industry.<br> <span>Designed for Innovation.</span>
             </h2>
             <div class="about-content" style="font-size: 18px; line-height: 1.8; color: #555;">
@@ -102,7 +102,7 @@ include 'includes/header.php';
                     partner with manufacturers, academic institutions, startups, and MSMEs to deliver measurable
                     outcomes — from accredited test reports to industry-ready talent.</p>
                 <a href="#" class="btn-primary"
-                    style="background: #0d47a1; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px;">Learn
+                    style="background: #2B7EC0; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px;">Learn
                     More About Us</a>
             </div>
         </div>
@@ -113,19 +113,19 @@ include 'includes/header.php';
         <div class="stats-container"
             style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 30px;">
             <div class="stat-item" style="flex: 1; min-width: 200px;">
-                <h3 style="font-size: 48px; color: #0d47a1; margin-bottom: 5px; font-weight: bold;">15+</h3>
+                <h3 style="font-size: 48px; color: #2B7EC0; margin-bottom: 5px; font-weight: bold;">15+</h3>
                 <p style="font-size: 16px; color: #555; font-weight: 500;">Years of Polymer & Packaging Expertise</p>
             </div>
             <div class="stat-item" style="flex: 1; min-width: 200px;">
-                <h3 style="font-size: 48px; color: #0d47a1; margin-bottom: 5px; font-weight: bold;">500+</h3>
+                <h3 style="font-size: 48px; color: #2B7EC0; margin-bottom: 5px; font-weight: bold;">500+</h3>
                 <p style="font-size: 16px; color: #555; font-weight: 500;">Tests Conducted Annually</p>
             </div>
             <div class="stat-item" style="flex: 1; min-width: 200px;">
-                <h3 style="font-size: 48px; color: #0d47a1; margin-bottom: 5px; font-weight: bold;">200+</h3>
+                <h3 style="font-size: 48px; color: #2B7EC0; margin-bottom: 5px; font-weight: bold;">200+</h3>
                 <p style="font-size: 16px; color: #555; font-weight: 500;">Clients & Industry Partners</p>
             </div>
             <div class="stat-item" style="flex: 1; min-width: 200px;">
-                <h3 style="font-size: 48px; color: #0d47a1; margin-bottom: 5px; font-weight: bold;">30+</h3>
+                <h3 style="font-size: 48px; color: #2B7EC0; margin-bottom: 5px; font-weight: bold;">30+</h3>
                 <p style="font-size: 16px; color: #555; font-weight: 500;">Certified Testing Methods</p>
             </div>
         </div>
@@ -137,7 +137,7 @@ include 'includes/header.php';
 
             <div class="section-header" style="text-align: center; margin-bottom: 40px;">
                 <div class="browse-label"
-                    style="justify-content: center; color: #0d47a1; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    style="justify-content: center; color: #2B7EC0; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
                     <span class="label-line"
                         style="width: 30px; height: 2px; background: #ff3b3b; display: inline-block;"></span>
                     OUR CAPABILITIES
@@ -311,7 +311,7 @@ include 'includes/header.php';
 
             <div style="text-align: center; margin-top: 40px;">
                 <a href="#" class="btn-primary"
-                    style="background: #0d47a1; color: white; padding: 14px 35px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600;">View
+                    style="background: #2B7EC0; color: white; padding: 14px 35px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600;">View
                     All Testing Services</a>
             </div>
 
@@ -322,7 +322,7 @@ include 'includes/header.php';
     <section class="industries-section" style="background: #f4f7fb; padding: 80px 20px;">
         <div class="industries-container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
             <div class="section-label"
-                style="color: #0d47a1; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px;">SECTORS WE SUPPORT
+                style="color: #2B7EC0; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px;">SECTORS WE SUPPORT
             </div>
             <h2 style="font-size: 36px; margin-bottom: 40px;">Specialist Testing for Diverse Industries</h2>
 
@@ -374,7 +374,7 @@ include 'includes/header.php';
                     navigate regulatory compliance, and work alongside your teams to resolve complex material and
                     process challenges.</p>
                 <a href="#" class="btn-view-services"
-                    style="display: inline-block; padding: 14px 35px; background: white; color: #0d47a1; font-weight: bold; border-radius: 6px; text-decoration: none;">View
+                    style="display: inline-block; padding: 14px 35px; background: white; color: #2B7EC0; font-weight: bold; border-radius: 6px; text-decoration: none;">View
                     Support Services</a>
             </div>
         </div>
@@ -384,7 +384,7 @@ include 'includes/header.php';
     <section class="facility-section" style="padding: 80px 20px; background: white;">
         <div class="facility-container" style="max-width: 1000px; margin: 0 auto; text-align: center;">
             <div class="section-label"
-                style="color: #0d47a1; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px;">STATE-OF-THE-ART
+                style="color: #2B7EC0; font-weight: bold; letter-spacing: 1px; margin-bottom: 15px;">STATE-OF-THE-ART
                 INFRASTRUCTURE</div>
             <h2 style="font-size: 36px; margin-bottom: 20px;">Labs Built for Accuracy. Equipped for Tomorrow.</h2>
             <p style="font-size: 18px; color: #555; line-height: 1.6;">AKC operates one of India's most comprehensively
@@ -409,7 +409,7 @@ include 'includes/header.php';
                     partners. From foundational polymer science to advanced quality assurance, our programmes prepare
                     engineers, technicians, and researchers to perform at the highest level.</p>
                 <a href="#" class="btn-view-courses"
-                    style="display: inline-block; padding: 14px 35px; background: #0d47a1; color: white; font-weight: bold; border-radius: 6px; text-decoration: none;">View
+                    style="display: inline-block; padding: 14px 35px; background: #2B7EC0; color: white; font-weight: bold; border-radius: 6px; text-decoration: none;">View
                     Training Courses</a>
             </div>
         </div>
@@ -450,7 +450,7 @@ include 'includes/header.php';
             </div>
 
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">What types of testing does AKC offer?
                 </h4>
                 <p style="color: #666; line-height: 1.6; font-size: 16px;">We offer accredited testing across chemical,
@@ -458,14 +458,14 @@ include 'includes/header.php';
                     packaging, textiles, rubber, leather, paper, medical devices, and more.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">Is AKC NABL-accredited?</h4>
                 <p style="color: #666; line-height: 1.6; font-size: 16px;">Yes. Our laboratories are NABL-accredited and
                     ISO 17025 compliant, meeting the highest national and international quality standards for testing
                     and calibration.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">How do I submit a sample for testing?
                 </h4>
                 <p style="color: #666; line-height: 1.6; font-size: 16px;">Fill out our online enquiry form, call our
@@ -473,7 +473,7 @@ include 'includes/header.php';
                     sample submission process.</p>
             </div>
             <div class="faq-item"
-                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #0d47a1; text-align: left;">
+                style="background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-left: 4px solid #2B7EC0; text-align: left;">
                 <h4 style="font-size: 20px; margin-bottom: 12px; color: #333;">Do you offer training for industry
                     professionals?</h4>
                 <p style="color: #666; line-height: 1.6; font-size: 16px;">Absolutely. We run structured training
