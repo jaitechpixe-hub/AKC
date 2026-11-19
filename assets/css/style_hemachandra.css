@@ -1311,6 +1311,28 @@ img {
     overflow: hidden;
 }
 
+.pr-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(8, 29, 51, 0.92) 0%, rgba(43, 126, 192, 0.88) 100%);
+    z-index: 1;
+}
+
+.pr-cta .pr-section-label,
+.pr-cta .pr-label-line {
+    color: #ffffff !important;
+}
+
+.pr-cta .pr-label-line {
+    background-color: #ffffff !important;
+}
+
+.pr-cta .pr-blue,
+.pr-cta-title .pr-blue {
+    color: #ffffff !important;
+}
+
 .pr-cta-inner {
     position: relative;
     z-index: 2;

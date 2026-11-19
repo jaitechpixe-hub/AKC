@@ -204,6 +204,49 @@ ul {
     margin-top: 0 !important;
 }
 
+/* ==========================================================================
+   GLOBAL BANNER & CTA READABILITY ENHANCEMENTS
+   Enforces high-contrast white text for subtitles, section labels, lines,
+   and headers across dark/blue hero and CTA banners platform-wide.
+   ========================================================================== */
+.pr-cta .pr-section-label,
+.pr-cta .pr-label-line,
+.tc-bottom-cta .pr-section-label,
+.tc-bottom-cta .pr-label-line,
+.ts-final-cta .ts-subtitle,
+.ts-final-cta .ts-subtitle .line,
+.ts-final-cta .ts-subtitle .dot,
+.qc-footer-cta .qc-subtitle,
+.chemical-cta-section .chemical-subtitle,
+.support-banner .support-label,
+.training-banner .training-label,
+.hero-banner .hero-subtitle,
+.ts-hero-section .ts-subtitle,
+.ts-hero-section .ts-subtitle .line,
+.ts-hero-section .ts-subtitle .dot,
+.pr-hero .pr-section-label,
+.cta .section-subtitle,
+.cta .section-subtitle .line {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+.pr-cta .pr-label-line,
+.tc-bottom-cta .pr-label-line,
+.ts-final-cta .ts-subtitle .line,
+.ts-final-cta .ts-subtitle .dot,
+.ts-hero-section .ts-subtitle .line,
+.ts-hero-section .ts-subtitle .dot,
+.cta .section-subtitle .line {
+    background-color: #ffffff !important;
+}
+
+.pr-cta .pr-blue,
+.pr-cta .pr-cta-title .pr-blue,
+.tc-bottom-cta .pr-blue {
+    color: #ffffff !important;
+}
+
 
 
 
