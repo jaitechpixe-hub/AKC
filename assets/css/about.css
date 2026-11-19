@@ -787,7 +787,7 @@ body {
     bottom: 0;
     left: 50%;
     width: 2px;
-    background: linear-gradient(to bottom, rgba(43, 126, 192, 0.15) 0%, #2B7EC0 50%, rgba(207, 52, 56, 0.4) 100%);
+    background: #2B7EC0;
     transform: translateX(-50%);
     z-index: 1;
 }
@@ -795,37 +795,42 @@ body {
 .timeline-icon {
     width: 60px;
     height: 60px;
-    background: #0d1e30;
-    border: 3px solid #2B7EC0;
+    background: #ffffff !important;
+    border: 3px solid #CF3438;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #CF3438 !important;
     font-size: 1.35rem;
-    box-shadow: 0 0 0 4px rgba(43, 126, 192, 0.25), 0 0 25px rgba(43, 126, 192, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+}
+
+.timeline-icon i {
+    color: #CF3438 !important;
 }
 
 .timeline-icon:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 0 6px rgba(207, 52, 56, 0.3), 0 0 30px rgba(207, 52, 56, 0.6);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     border-color: #CF3438;
 }
 
 .step-badge {
-    width: 36px;
-    height: 36px;
-    background: linear-gradient(135deg, #CF3438 0%, #a82428 100%);
-    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    background: #ffffff !important;
+    color: #CF3438 !important;
+    border: 2px solid #CF3438;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 0.95rem;
+    font-size: 1rem;
     margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(207, 52, 56, 0.4);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25), 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .process-step h4 {

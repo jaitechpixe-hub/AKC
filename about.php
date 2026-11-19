@@ -834,7 +834,7 @@ include 'includes/header.php';
                         timelines, and any special conditions.</p>
                 </div>
                 <div class="timeline-center">
-                    <div class="timeline-icon"><i class="fa-solid fa-microscope" style="color: #60A5FA;"></i></div>
+                    <div class="timeline-icon"><i class="fa-solid fa-microscope"></i></div>
                 </div>
                 <div class="process-step reveal-child">
                     <div class="step-badge">2</div>
@@ -851,7 +851,7 @@ include 'includes/header.php';
                         under strict quality-controlled conditions.</p>
                 </div>
                 <div class="timeline-center">
-                    <div class="timeline-icon"><i class="fa-solid fa-clipboard-list" style="color: #94A3B8;"></i></div>
+                    <div class="timeline-icon"><i class="fa-solid fa-clipboard-list"></i></div>
                 </div>
                 <div class="process-step reveal-child">
                     <div class="step-badge">4</div>
@@ -868,7 +868,7 @@ include 'includes/header.php';
                         highest standards of accuracy.</p>
                 </div>
                 <div class="timeline-center">
-                    <div class="timeline-icon"><i class="fa-solid fa-circle-check" style="color: #10B981;"></i></div>
+                    <div class="timeline-icon"><i class="fa-solid fa-circle-check"></i></div>
                 </div>
                 <div class="process-step reveal-child">
                     <div class="step-badge">6</div>

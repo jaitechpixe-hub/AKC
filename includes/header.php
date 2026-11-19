@@ -162,7 +162,7 @@
         }
 
         /* MOBILE NAVIGATION */
-        @media (max-width: 991px) {
+        @media (max-width: 1200px) {
             .main-menu {
                 display: none !important;
             }
@@ -424,7 +424,7 @@
 
                 link.addEventListener("click", function (e) {
 
-                    if (window.innerWidth <= 991) {
+                    if (window.innerWidth <= 1200) {
 
                         e.preventDefault();
 

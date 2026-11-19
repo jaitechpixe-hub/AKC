@@ -30,6 +30,15 @@ body {
     z-index: 1;
 }
 
+.ts-hero-section .ts-subtitle {
+    color: #ffffff !important;
+}
+
+.ts-hero-section .ts-subtitle .dot,
+.ts-hero-section .ts-subtitle .line {
+    background-color: #ffffff !important;
+}
+
 .ts-hero-container {
     position: relative;
     z-index: 2;
