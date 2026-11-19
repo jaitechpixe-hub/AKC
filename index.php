@@ -320,7 +320,7 @@ include 'includes/header.php';
                     PTARC aims to evolve from an advanced R&D and testing laboratory into an internationally recognized
                     Institute and global centre of excellence in polymer, packaging, and material science.</p>
                 <a href="about.php" class="btn-primary"
-                    style="background: #CF3438; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; box-shadow: 0 4px 14px rgba(207, 52, 56, 0.35); font-weight: 500; font-size: 16px;">Learn
+                    style="background: #2B7EC0; color: white; padding: 16px 40px; border-radius: 6px; text-decoration: none; display: inline-block; box-shadow: 0 4px 14px rgba(43, 126, 192, 0.35); font-weight: 500; font-size: 16px;">Learn
                     More About Us</a>
             </div>
         </div>
