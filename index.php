@@ -339,10 +339,10 @@ include 'includes/header.php';
             style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; text-align: center;">
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
-                    style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
+                    style="width: 65px; height: 65px; background: white; color: #CF3438; border: 2px solid #e2e8f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">
                     <i class="fa-solid fa-flask-vial"></i>
                 </div>
                 <h3 style="font-size: 36px; color: var(--primary-blue); margin-bottom: 5px; font-weight: 600;"><span
@@ -356,10 +356,10 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
-                    style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
+                    style="width: 65px; height: 65px; background: white; color: #CF3438; border: 2px solid #e2e8f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">
                     <i class="fa-solid fa-gear"></i>
                 </div>
                 <h3 style="font-size: 36px; color: var(--primary-blue); margin-bottom: 5px; font-weight: 600;"><span
@@ -373,10 +373,10 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
-                    style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
+                    style="width: 65px; height: 65px; background: white; color: #CF3438; border: 2px solid #e2e8f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">
                     <i class="fa-solid fa-leaf"></i>
                 </div>
                 <h3 style="font-size: 36px; color: var(--primary-blue); margin-bottom: 5px; font-weight: 600;"><span
@@ -390,10 +390,10 @@ include 'includes/header.php';
             </div>
 
             <div class="reveal-child"
-                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #CF3438; transition: transform 0.3s ease;"
+                style="background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid var(--primary-blue); transition: transform 0.3s ease;"
                 onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
                 <div
-                    style="width: 65px; height: 65px; background: var(--primary-blue); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,86,179,0.3);">
+                    style="width: 65px; height: 65px; background: white; color: #CF3438; border: 2px solid #e2e8f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">
                     <i class="fa-solid fa-bolt"></i>
                 </div>
                 <h3 style="font-size: 36px; color: var(--primary-blue); margin-bottom: 5px; font-weight: 600;"><span

@@ -1111,7 +1111,7 @@ img {
 }
 .pr-test-card {
     border: 1px solid #e2e8f0;
-    border-top: 3px solid #CF3438;
+    border-top: 3px solid #2B7EC0;
     border-radius: 8px;
     padding: 28px;
     display: flex;
@@ -1119,8 +1119,8 @@ img {
     transition: var(--transition);
 }
 .pr-test-card:hover { 
-    box-shadow: 0 15px 35px rgba(207, 52, 56, 0.12); 
-    border-color: #CF3438; 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); 
+    border-color: #cbd5e1; 
 }
 .pr-test-header { margin-bottom: 12px; }
 .pr-test-num {
