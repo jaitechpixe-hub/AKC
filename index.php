@@ -56,7 +56,7 @@ include 'includes/header.php';
                 <div class="hero-cta-wrapper" style="width: 295px; max-width: 100%; display: block;">
                     <div class="hero-actions" style="margin-bottom: 22px; width: 100%; display: block;">
                         <a href="testing-and-certification.php" class="btn-primary"
-                            style="display: block !important; width: 100% !important; text-align: center !important; box-sizing: border-box !important; padding: 14px 15px !important; white-space: nowrap !important;">Explore
+                            style="display: block !important; width: 100% !important; text-align: center !important; box-sizing: border-box !important; padding: 14px 15px !important; white-space: nowrap !important; background: #ffffff !important; color: #2B7EC0 !important; font-weight: 700 !important; border: 2px solid #ffffff !important; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;">Explore
                             Our Testing Services</a>
                     </div>
 
@@ -98,6 +98,20 @@ include 'includes/header.php';
             box-sizing: border-box !important;
             padding: 14px 15px !important;
             white-space: nowrap !important;
+            background: #ffffff !important;
+            color: #2B7EC0 !important;
+            border: 2px solid #ffffff !important;
+            font-weight: 700 !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .hero-cta-wrapper .btn-primary:hover {
+            background: #f8fafc !important;
+            color: #2369A1 !important;
+            border-color: #f8fafc !important;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+            transform: translateY(-2px) !important;
         }
 
         .hero-cta-wrapper .trust-bar {
